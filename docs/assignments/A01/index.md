@@ -35,6 +35,15 @@ Evidence of reasoning: The only project with present evidence of reasoning in th
 <br>
 <br>
 Professional tone: Karau's portfolio meets the professional tone that is expected when given to an employer. The descriptions for his listed work experiences include statements with measurements such as "Reduced design errors by 15%" and "Improved workflow efficiency by 25%". Other statements prove to be concise and included engineering terminology like finite element analysis and PLC programming.
+<br>
+<br>
+Task B: Product analysis
+<br>
+<br>
+a. The product ive chosen is a hole punch, and its mechanical task is to push the punch through a material to apply a shear force to cut a part of the material. A lever mechanism is used to transmit applied force to the punch at the other end of the hole punch. Once the punch is forced to the point where the only thing separating the punch and the base is the material, the shear force fails and creates a hole as large as the punch on the material.
+<br>
+<br>
+b. The behavior of a hole punch amplifies an applied force into a greater applied force, the punch force. The torque from each force is calculated from the force times its respective distance to the fulcrum. Assuming the two moments are equal to eachother, otherwise the hole punch would be considered defective, the moment made from your hand equals the moment made from the punch. 
 
 ## Decide
 
