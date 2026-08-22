@@ -20,6 +20,21 @@ Evidence of reasoning: With Hoong's projects with documentation, there's not eno
 <br>
 Professional tone: Hoong's portfolio meets the professional standard that would be acceptable if given to an employer. The engineering projects use terminology and applications such as socket locking mechanisms and
 FEA analysis, which is standard in engineering projects. His tone is concise and professional, which meets the requirements for an appropriate tone.
+<br>
+<br>
+Portfolio #2: https://natekarau61.github.io/Engineering-Portfolio/
+<br>
+<br>
+Navigability: Nathaniel Karau's portfolio is capable of locating any assignments for readers. His work experience, achievments, Projects, and contact information are provided on the left hand side of the screen with their own area along the page. Specific work experiences and projects require them to be clicked on for more information.
+<br>
+<br>
+Reproducibility: Majority of Nathaniel Karau's projects contain sufficient documentation to be able to be replicated from a colleague. The tilt table capstone project provides a power point presentation with all their documentation, bill of materials, and engineering drawings in SolidWorks with dimensions. Every other labelled projects have their own engineering drawings in SolidWorks as well. The projects labelled inside "other projects" only have a 3D model built into the website.
+<br>
+<br>
+Evidence of reasoning: The only project with present evidence of reasoning in the portfolio is the tilt table capstone project. the power point presentation has design concepts of the tilt table put under a weighted matrix, documenting their final design choice according to the matrix. the presentation also documents a predictive analysis for the design, assessing the lengths the top and bottom pistons much extend to in order to push the box flush to the back of the cart and the sizes of the box, cart, and table needed for a working design. All other projects are provided with only an objective and its final design, like the box form with the objective of improving casting efficiency and heavy-duty use and the final outcome being a reduced setup and teardown time, for example.
+<br>
+<br>
+Professional tone:
 
 ## Decide
 
