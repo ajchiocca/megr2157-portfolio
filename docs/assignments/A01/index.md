@@ -40,13 +40,26 @@ Professional tone: Karau's portfolio meets the professional tone that is expecte
 Task B: Product analysis
 <br>
 <br>
-a. The product ive chosen is a hole punch, and its mechanical task is to push the punch through a material to apply a shear force to cut a part of the material. A lever mechanism is used to transmit applied force to the punch at the other end of the hole punch. Once the punch is forced to the point where the only thing separating the punch and the base is the material, the shear force fails and creates a hole as large as the punch on the material.
+a. The product ive chosen is a screwdriver , and its mechanical task is to apply torque to either tighten or loosen a fastener. The applied force from the hand transmits to the driver tip, which should match with the fasteners geometry to be able to fit in. the rotational force is applied to the tip and the fastener consequentially.
 <br>
 <br>
-b. The behavior of a hole punch amplifies an applied force into a greater applied force, the punch force. The torque from each force is calculated from the force times its respective distance to the fulcrum. Assuming the two moments are equal to eachother, otherwise the hole punch would be considered defective, the moment made from your hand equals the moment made from the punch. 
-
+b. The basic principle a screwdriver utilizes is "T = Fr", where "T" is the torque applied to the shaft, "F" is the force applied by the hand, and "r" is the radius from the screwdrivers axis of rotation which is in the middle of the screwdriver. If the applied force were at an angle other than ninety degrees, the equation would instead be "T = Fsin(theta) r" were theta is the angle between the force and the screwdrivers longitudinal axis. A valid screwdriver would be under the assumption that the screwdriver shaft and handle are rigid and wont slip.
+<br>
+<br>
+c. There are two components for screwdrivers, being the handle and shaft. The handle is used to grip the metal shaft. A handle larger than the shaft in diameter allow for a stronger torque as the radius from the force to the screwdrivers axis is defined by the handles size. The other component is the shaft, which transmits the applied torque to the tip of the screwdriver, to be then slotted in inside a fastener. The torque felt with force  the fastener to move along with the screwdriver.
+<br>
+<br>
+d. The product itself is from Kobalt and the screwdrivers screw is a phillips head screw. the patent number for the phillips head screw and screwdriver is US2046837A, and the authors is Henry F. Phillips. alternatives solutions to the screwdriver can be a drill and an impact driver, where the drill automates the torque and the impact driver uses a hammer and anvil mechanism to apply torque in bursts. One design decision that can be seen in the patent is the diameter of the handle. the diameter of the handle is greater than the shafts radius, allowing a greater torque to be applied.
 ## Decide
-
+<br>
+<br>
+1. 
+<br>
+<br>
+2.
+<br>
+<br>
+3.
 
 ## Communicate
 
