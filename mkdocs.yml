@@ -5,8 +5,8 @@ theme:
   name: material
   palette:
     scheme: 
-    primary: gray
-    accent: indigo
+    primary: blue gray
+    accent: teal
   features:
     - navigation.instant
     - navigation.tracking
