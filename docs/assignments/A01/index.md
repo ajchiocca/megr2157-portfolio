@@ -62,4 +62,6 @@ d. The product itself is from Kobalt and the screwdrivers screw is a phillips he
 3. The quality bar I commit myself to for every assignment this semester will be that every assignment is clarified and noticeably done with thought and effort put into it that I could reflect on in the future. 
 
 ## Communicate
-
+<br>
+<br>
+(See About me page)
