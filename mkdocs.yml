@@ -6,7 +6,7 @@ theme:
   palette:
     scheme: 
     primary: gray
-    accent: lime
+    accent: indigo
   features:
     - navigation.instant
     - navigation.tracking
