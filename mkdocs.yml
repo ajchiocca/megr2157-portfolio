@@ -4,8 +4,8 @@ site_description: Design portfolio documentation, built with the Analyze / Decid
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: green
+    scheme: 
+    primary: gray
     accent: lime
   features:
     - navigation.instant
