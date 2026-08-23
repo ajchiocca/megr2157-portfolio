@@ -53,7 +53,7 @@ d. The product itself is from Kobalt and the screwdrivers screw is a phillips he
 ## Decide
 <br>
 <br>
-1. 
+1. I decided to keep the format and description of the homepage in my portfolio the same. The intended reader is presumably primarily looking for either my projects or assignments that evaluate my judgement. the order of the portfolio, being the homepage, about me, portfolio overview, and assignments. wont be aspect that their looking for or expecting. the portfolio is to showcase my experience, thus leaving format options secondary. The standard description home page encapsulates what the portfolio is.
 <br>
 <br>
 2.
