@@ -3,7 +3,7 @@ site_description: Design portfolio documentation, built with the Analyze / Decid
 
 theme:
   name: material
-  palette: default
+  palette: red
     scheme :
     primary: indigo
     secondary : indigo
