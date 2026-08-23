@@ -5,8 +5,10 @@ theme:
   name: material
   palette: default
     scheme :
-    primary: indigo
-    secondary : indigo
+    primary: custom
+    toggle: 
+    icon: material/brightness-7
+    name: Switch to dark mode
   features:
     - navigation.instant
     - navigation.tracking
