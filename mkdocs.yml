@@ -3,21 +3,11 @@ site_description: Design portfolio documentation, built with the Analyze / Decid
 
 theme:
   name: material
-  palette: 
-   - scheme: default
-    primary: custom
-     accent: indigo
-     toggle: 
-       icon: material/brightness-7
-       name: Switch to dark mode
-       
-   - scheme: slate
-    primary: custom
-     accent: indigo
-     toggle:
-       icon: material/brightness-4
-       name: Switch to light mode
-
+  palette:
+    primary: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
   features:
     - navigation.instant
     - navigation.tracking
