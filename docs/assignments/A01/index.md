@@ -40,6 +40,7 @@ Professional tone: Karau's portfolio meets the professional tone that is expecte
 Task B: Product analysis
 <br>
 <br>
+![Kobalt Screwdriver](IMG_1368.jpg)
 a. The product ive chosen is a screwdriver , and its mechanical task is to apply torque to either tighten or loosen a fastener. The applied force from the hand transmits to the driver tip, which should match with the fasteners geometry to be able to fit in. the rotational force is applied to the tip and the fastener consequentially.
 <br>
 <br>
