@@ -74,6 +74,7 @@ MEGR-2156-7-template/
 
 ![FBD.png](FBD.png.png)
 ![Truss](IMG_1378.png.png)
+![MOS](MOS.png.png)
 
 
 
