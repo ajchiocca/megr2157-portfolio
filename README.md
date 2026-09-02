@@ -73,7 +73,7 @@ MEGR-2156-7-template/
 
 
 ![FBD.png](FBD.png.png)
-![trussdesign](truss.png.png)
+![Truss](truss.png)
 
 
 
