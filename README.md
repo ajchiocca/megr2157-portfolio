@@ -77,3 +77,7 @@ MEGR-2156-7-template/
 ![Page4](Page4.png)
 ![Page5](Page5.png)
 ![FBD.png](FBD.png.png)
+![trussdesign](trussdesign.png)
+![joints1](joints1.png)
+![joints2](joints2.png)
+
