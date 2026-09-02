@@ -79,6 +79,7 @@ MEGR-2156-7-template/
 ![NOMSTRESS](NOMSTRESS.png.png)
 ![WEIGHT_T](WEIGHT_T.png.png)
 ![PINSHEAR](PINSHEAR.png.png)
+![WEIGHTPIN](WEIGHTPIN.png.png)
 
 
 
