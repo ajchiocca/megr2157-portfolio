@@ -41,6 +41,9 @@ The force and allowable stress in the pins must be evaulated as well. I created 
 ![PINSHEAR](PINSHEAR.png)
 #### Weight of the pins
 With a given density of the pins material, the weight of the two pins can be calculated easier. the mass of the pins is the density times the volume, and the the pins are is assumed to take the shape of a cylinder for simplicity. Setting the cross-sectional area to the area of a circle, the radius of the pin can be found. the radius of the pin is .1834 inches, and as the pins are cylindrical, the height of the pins must be the length of the truss. assuming the cross-sectional area of the truss is a square, its length is 14.36 millimeters or 0.565 inches. Multiplying the volume times the density and the amount of pins, two, gives the total mass, which came out to be .033 pounds or .147 newtons.
+<br>
+<br>
+![WEIGHTPIN](WEIGHTPIN.png)
 
 ## Communicate
 
