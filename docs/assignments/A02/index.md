@@ -46,5 +46,9 @@ With a given density of the pins material, the weight of the two pins can be cal
 <br>
 ![WEIGHTPIN](WEIGHTPIN.png)
 
+## Decide 
+### CAD models
+
+
 ## Communicate
 
