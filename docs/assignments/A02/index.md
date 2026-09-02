@@ -36,6 +36,8 @@ The weight density of AISI 1040 Cold-rolled steel is 490 pound per feet cubed. t
 ### Pins
 #### Shear stress
 The force and allowable stress in the pins must be evaulated as well. I created another free body diagram of pin A, and the only and largest force acting on it is 20 kN. The pins are made of hardened tool steel, with a yield shear strength of 170 ksi and density of 0.278 pound per square inch. I divided the maximum force by the yield strength to find the minimum cross-sectional area before applying the factor of safety. The minimum area with an applied factor of safety of 4 is .1057 square inches or 68.193 millimeters squared.
-
+<br>
+<br>
+![PINSHEAR](PINSHEAR.png)
 ## Communicate
 
