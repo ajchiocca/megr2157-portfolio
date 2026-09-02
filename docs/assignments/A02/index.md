@@ -7,7 +7,7 @@ The objective of the assignment is to design a light weight planar truss meets r
 <br>
 ## Free Body Diagram
 
-![Free Body Diagram](A02/FBD/FBD.png)
+![Free Body Diagram](A02/FBD.png/FBD.png)
 ## Analyze
 
 
