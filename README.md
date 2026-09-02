@@ -70,6 +70,10 @@ MEGR-2156-7-template/
 2. Add a matching line to the `nav:` section of `mkdocs.yml` — this is what makes it appear in the sidebar on every page.
 
 
-## Free Body Diagram
 
 ![Page1](Page1.png)
+![Page2](Page2.png)
+![Page3](Page3.png)
+![Page4](Page4.png)
+![Page5](Page5.png)
+![FBD])(FBD.png)
