@@ -68,3 +68,8 @@ MEGR-2156-7-template/
 
 1. Add a new folder under `docs/assignments/` with an `index.md`.
 2. Add a matching line to the `nav:` section of `mkdocs.yml` — this is what makes it appear in the sidebar on every page.
+
+
+## Free Body Diagram
+
+![Page1](Page1.png)
