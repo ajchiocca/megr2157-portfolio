@@ -78,6 +78,7 @@ MEGR-2156-7-template/
 ![JOINTS](JOINTS.png.png)
 ![NOMSTRESS](NOMSTRESS.png.png)
 ![WEIGHT_T](WEIGHT_T.png.png)
+![PINSHEAR](PINSHEAR.png.png)
 
 
 
