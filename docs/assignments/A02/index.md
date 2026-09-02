@@ -28,6 +28,9 @@ With the solved forces, the next step was to calculate the allowable normal stre
 
 ### Weight of the truss
 The weight density of AISI 1040 Cold-rolled steel is 490 pound per feet cubed. to find the weight, I used the formula of weight equal to density times the cross-sectional area and the truss members respective lengths. I first converted the weight density to newtons or millimeters cubed to maintain metric units. the weight density over gravity is the density used, which was 7.83 * 10^-9 kilograms over millimeters cubed. The formula for weight could be performed, and the result was the weight of the truss to be 58.66 newtons.
+<br>
+<br>
+![WEIGHT_T](WEIGHT_T.png)
 
 
 
