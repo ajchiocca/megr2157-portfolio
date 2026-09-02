@@ -13,7 +13,7 @@ The first step is to of course create a truss design. I chose this truss design 
 <br>
 <br>
 
-![Truss](./truss)
+![Truss](IMG_1378.png)
 ## Analyze
 
 ### Member calculations
