@@ -80,6 +80,5 @@ MEGR-2156-7-template/
 ![trussdesign](trussdesign.png)
 ![joints1](joints1.png)
 ![joints2](joints2.png)
-![stresstruss](stresstruss.png)
-![weighttruss](weighttruss)
+
 
