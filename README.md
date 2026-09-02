@@ -76,7 +76,8 @@ MEGR-2156-7-template/
 ![Truss](IMG_1378.png.png)
 ![MOS](MOS.png.png)
 ![JOINTS](JOINTS.png.png)
-![NOMSTRESS](NOMSTRESS.png.png)
+![WEIGHT_T](WEIGHT_T.png.png)
+
 
 
 
