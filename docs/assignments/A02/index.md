@@ -11,7 +11,6 @@ The objective of the assignment is to design a light weight planar truss meets r
 ## Analyze
 The first step is to of course create a truss design. I chose this truss design so that solving the forces in each truss were kept the most simple while still accounting for the designs overall strength, where the four truss members in the middle have zero newtons acting on them, making the outside members the only members in the truss affected by the load. When it comes to failure. the truss members in the middle can resist the nature of the load, which is to rotate counter clockwise on member CD (or CF and DF).
 <br>
-<br>
 
 ![Truss](IMG_1378.png)
 ### Member calculations
@@ -22,7 +21,10 @@ I used the method of joints and method of sections to find the force in each tru
 ![MOS](MOS.png)
 
 ### Normal stress
-With the solved forces, the next step was to calculate the allowable normal stress the truss must comply to. The truss is made from A151 1040 cold-rolled which has a yield strength of 82 kips per square inch.
+With the solved forces, the next step was to calculate the allowable normal stress the truss must comply to. The truss is made from A151 1040 cold-rolled which has a yield strength of 82 kips per square inch. I converted the 82 Ksi to 565.34 Megapascals or .0565 Gigapascals so that the stress is in metric units- the same as the truss dimensions. Diving the yield strength by the factor of safety 3.5 gives the allowable stress on the truss. I then found the minimum cross-sectional area of the truss by diving the maximum force felt in the truss, 33,334 kN, converted to newtons, divided by the allowable stress. the result was 206.4 millimeters^2.
+<br>
+<br>
+![NOMSTRESS](NOMSTRESS.png)
 
 
 
