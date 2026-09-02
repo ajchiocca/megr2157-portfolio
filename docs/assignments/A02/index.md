@@ -22,8 +22,8 @@ I used the method of joints and method of sections to find the force in each tru
 ![Forces, MOS](joints2)
 
 ### Normal stress
-With the solved forces, the next step was to calculate the allowable normal stress and minimum area the truss must comply to. The truss is made from A151 1040 cold-rolled which has a yield strength of 82 kips per square inch.
-
+With the solved forces, the next step was to calculate the allowable normal stress the truss must comply to. The truss is made from A151 1040 cold-rolled which has a yield strength of 82 kips per square inch.
+![Allowable stress](stresstruss)
 
 
 ## Communicate
