@@ -80,6 +80,8 @@ MEGR-2156-7-template/
 ![WEIGHT_T](WEIGHT_T.png.png)
 ![PINSHEAR](PINSHEAR.png.png)
 ![WEIGHTPIN](WEIGHTPIN.png.png)
+![CADCAD](CADCAD.png.png)
+![PINPIN](PINPIN.png.png)
 
 
 
