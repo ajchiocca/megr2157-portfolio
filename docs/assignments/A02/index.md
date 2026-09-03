@@ -23,13 +23,13 @@ I used the method of joints and method of sections to find the force in each tru
 ![MOS](MOS.png)
 
 #### Normal stress
-With the solved forces, the next step was to calculate the allowable normal stress the truss must comply with. The truss is made from A151 1040 cold-rolled, which has a yield strength of 82 kips per square inch. I converted the 82 Ksi to 565.34 Megapascals or .0565 Gigapascals so that the stress and dividing units are the same as the truss dimensions. Dividing the yield strength by the factor of safety 3.5 gives the allowable stress on the truss. I then found the minimum cross-sectional area of the truss by dividing the maximum force felt in the truss, 33,334 kN, converted to newtons, divided by the allowable stress. The result was 206.4 millimeters squared.
+With the solved forces, the next step was to calculate the allowable normal stress the truss must comply with. The truss is made from A151 1040 cold-rolled, which has a yield strength of 82 kips per square inch. I converted the 82 ksi to 565.34 Megapascals or .0565 Gigapascals so that the stress and dividing units are the same as the truss dimensions. Dividing the yield strength by the factor of safety 3.5 gives the allowable stress on the truss. I then found the minimum cross-sectional area of the truss by dividing the maximum force felt in the truss, 33,334 kN, converted to newtons, divided by the allowable stress. The result was 206.4 millimeters squared.
 <br>
 <br>
 ![NOMSTRESS](NOMSTRESS.png)
 
 #### Weight of the truss
-The weight density of AISI 1040 Cold-rolled steel is 490 pounds per feet cubed. To find the weight, I used the formula of weight equal to density times the cross-sectional area and the truss members' respective lengths. I first converted the weight density to newtonsper millimeters cubed to maintain metric units. The weight density over gravity is the density used, which was 7.83 * 10^-9 kilograms per millimeter cubed. The weight formula could be performed, and the result was the weight of the truss to be 58.66 newtons.
+The weight density of AISI 1040 Cold-rolled steel is 490 pounds per feet cubed. To find the weight, I used the formula of weight equal to density times the cross-sectional area and the truss members' respective lengths. I first converted the weight density to newtons per millimeters cubed to maintain metric units. The weight density over gravity is the density used, which was 7.83 * 10^-9 kilograms per millimeter cubed. The weight formula could be performed, and the result was the weight of the truss to be 58.66 newtons.
 <br>
 <br>
 ![WEIGHT_T](WEIGHT_T.png)
@@ -48,7 +48,7 @@ With a given density of the pins' material, the weight of the two pins can be ca
 
 ## Decide 
 ### CAD models
-The mass calculated from SolidWorks for the truss and pins is 5896.43 grams and 7.88 grams. The measurements equate to 56.98 newtons and .153 netwons (combined pin mass), which are close to the estimated value from my calculations. Under the given external load of two 20 kN forces going in opposite directions, the truss design will be able to withstand the load.
+The mass calculated from SolidWorks for the truss and pins is 5896.43 grams and 7.88 grams. The measurements equate to 56.98 newtons and .153 newtons (combined pin mass), which are close to the estimated value from my calculations. Under the given external load of two 20 kN forces going in opposite directions, the truss design will be able to withstand the load.
 
 ![CADCAD](CADCAD.png)
 ![PINPIN](PINPIN.png)
@@ -62,7 +62,41 @@ Fracture occurs when an external load or internal stress exceeds the material's 
 #### Buckling
 Buckling is most common in members connected to a pin or experiencing compressive force in both directions. Member, DJ, AJ, BE, and AE are the only members in compression that could fail due to buckling. Reducing buckling failure is possible by again, adding more members so that any members are not overloaded. increasing the thickness or shortening the length will require stronger forces to induce buckling as well, for buckling is most effective at higher slenderness ratios
 ### Pins failure modes
-The expected failure mode of the pins would be direct shear for the pin located on Joint B, and bending on the pin at Joint A. I used Claude AI to generate possible failre modes of pin, and with my prompt being "generally speaking what are expected failure modes in pins. are there credible sources i can cite than confirm how my pin will fail? I have my truss in a trapezoidal shape, with the pins on the corners of the long side, with their respective support forces in opposite directions." Claude AI gave me seven different ways a pin could fail, with the response verifying my original hypothesis. Pin B (at joint B) has its support force in the negative y direction and member BH in the positive y direction. Direct shear occcurs when parallel forces slide apart a material. Member BH is not completely in the y direction, but the portion of the force acting upwards may inflict direct shear regardless.
+The expected failure mode of the pins would be direct shear for the pin located on Joint B, and bending on the pin at Joint A. I used Claude AI to generate possible failure modes of pin, and with my prompt being "generally speaking what are expected failure modes in pins. are there credible sources i can cite than confirm how my pin will fail? I have my truss in a trapezoidal shape, with the pins on the corners of the long side, with their respective support forces in opposite directions." Claude AI gave me seven different ways a pin could fail, with the response verifying my original hypothesis. Pin B (at joint B) has its support force in the negative y direction and member BH in the positive y direction. Direct shear occurs when parallel forces slide apart a material. Member BH is not completely in the y direction, but the portion of the force acting upwards may inflict direct shear regardless. Pin A would most likely fail due to bending considering the forces acting on joint A are in opposite direction. Member AJ raises the most concern for its going in the opposite direction as the support force and is at an angle. Between those forces, the pins behavior would be to turn clockwise while attempting to stay in its position until the interval forces eventually overwhelm the support force and breaks the pin. Here is the full response Claude AI gave me:
+
+Pin connections in a truss (or any pin-jointed link) typically fail in one of a handful of well-characterized ways. For a pin at the corner of a truss member, loaded by the reaction/support force, the credible list is basically:
+
+1. Direct shear of the pin
+The pin shears across its cross-section(s). If it's a single-shear joint (pin through two plates lapped together), shear area = one cross-section; if double-shear (pin through a clevis with the member sandwiched inside, or a gusset between two flanges), shear area = two cross-sections, so double shear is much stronger for the same pin diameter. This is usually the governing/primary failure mode people check first.
+
+2. Bearing failure (pin or plate)
+Local crushing/yielding where the pin presses against the hole wall — either the pin itself yields/deforms, or the plate material around the hole yields and the hole elongates (ovalizes). Bearing stress = load / (diameter × plate thickness).
+
+3. Tear-out (edge shearing) of the plate
+If the edge distance from the hole to the free edge of the plate is too small, the material between the hole and the edge shears out in the direction of load — two shear planes tearing free. This is a plate/lug failure mode, not a pin failure mode per se, but it's the most common practical cause of "pin joint" failures in the field because designers under-detail edge distance.
+
+4. Net-section tension failure
+The plate fails in tension across its net width (gross width minus hole diameter) at the pin location — governs when the plate is narrow relative to the hole.
+
+5. Bending of the pin
+If there's any gap between the loaded members (e.g., a lug that isn't tightly sandwiched, or if the two opposite-direction forces you describe aren't perfectly collinear/coplanar), the pin sees a bending moment in addition to shear. This is a common failure mode when people assume "pin = pure shear" but the geometry actually introduces an offset or moment arm.
+
+6. Fatigue / fretting
+For cyclic loads, cracks can initiate at the pin surface or at the hole edge (stress concentration), often accelerated by fretting wear if there's any relative micro-slip between pin and hole. This is the dominant failure mode in bridges, machinery, and anything with repeated loading rather than one-time static load.
+
+7. Bearing-induced hoop/tensile failure around the hole
+Related to bearing, but framed as the hole "trying to split open" — relevant for thin plates or lugs, sometimes called "hoop tension" failure in lug analysis.
+
+On your specific geometry
+Two pins at the corners of the long side of a trapezoidal truss, with support reactions in opposite directions, sounds like it's setting up either (a) a couple/moment reaction pair, or (b) a two-point support where the truss could see combined shear + bending at each pin if the reaction lines aren't collinear with the member's neutral axis. Worth explicitly checking: whether the pin sees single or double shear in your actual bracket/gusset detail, and whether the opposing forces introduce any eccentricity (bending) rather than pure shear at each pin.
+
+Credible, citable sources
+Shigley's Mechanical Engineering Design (Budynas & Nisbett) — standard mechanical engineering textbook; has direct shear/bearing pin design equations and is widely cited in coursework and industry.
+AISC Steel Construction Manual — has a specific section on pin-connected members (eyebars/pin plates), including required edge distance and net-section rules to prevent tear-out — this is the actual code-referenced source if this is a civil/structural steel truss.
+Roark's Formulas for Stress and Strain (Young & Budynas) — has stress concentration factors around loaded holes, useful for the bearing/hoop stress case.
+Bruhn, "Analysis and Design of Flight Vehicle Structures" and Niu, "Airframe Stress Analysis and Sizing" — if this is aerospace-context, these are the classic references for lug/pin joint failure modes (bearing, shear-out, net-tension) with the exact interaction diagrams engineers use.
+ASME B18.8.1 / B18.8.2 — dimensional/mechanical standards for clevis and cotter pins if you need pin material/size specs.
+If you tell me whether this is a civil (AISC-governed) truss or a machine-design/aerospace context, I can point you to the specific section/equation in the right one of these rather than the general list.
 
 
 
