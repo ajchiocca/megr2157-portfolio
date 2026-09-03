@@ -54,9 +54,9 @@ The mass calculated from SolidWorks for the truss and pins is 5896.43 grams and 
 ![PINPIN](PINPIN.png)
 
 ## Communicate
-### Truss members expected failure mode
+### Truss members failure mode
 #### Yielding 
-Members CF, DF, CH, CB, AJ, and DJ are the most likely to fail due to the yield strength. The fact that these members are in tension makes them more susceptible because stretching steel, in this case cold-rolled AISI 1040 steel, is a ductile material in this case and takes less strength than it does to compress it. Limiting members in tension is not realistic, but a design modification to stop the possibility of those members failing is to add more members in tension; that way the load is distributed over more members and keeps it in the elastic range.
+Members CF, DF, CH, CB, AJ, and DJ are the most likely to fail due to the yield strength. The fact that these members are in tension makes them more susceptible because stretching steel, in this case cold-rolled AISI 1040 steel, is a ductile material in this case and takes less strength than it does to compress it. Limiting members in tension is not realistic, but a design modification to stop the possibility of those members failing is to add more members in tension; that way, the load is distributed over more members and keeps it in the elastic range.
 #### Fracture
 Fracture occurs when an external load or internal stress exceeds the material's strength. Members CF, DF, BH, BE, EA, and AJ have the possibility to fail from fracture, considering external forces are concentrated at the joints and experience the most internal force. Adding more members connected to joints A, B, C, and D would reduce the likelihood of fracture failure, for the internal forces derived from the external load would be distributed to more members, lowering the overall stress that could exceed the steel's strength.
 #### Buckling
