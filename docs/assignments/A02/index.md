@@ -60,6 +60,9 @@ Members CF, DF, CH, CB, AJ, and DJ are the most likely to fail due to the yield 
 #### Fracture
 Fracture occurs when an external load or internal stress exceeds the material's strength. Members CF, DF, BH, BE, EA, and AJ have the possibility to fail from fracture, considering external forces are concentrated at the joints and experience the most internal force. Adding more members connected to joints A, B, C, and D would reduce the likelihood of fracture failure, for the internal forces derived from the external load would be distributed to more members, lowering the overall stress that could exceed the steel's strength.
 #### Buckling
-Buckling is most common in members connected to a pin or experiencing compressive force in both directions. 
+Buckling is most common in members connected to a pin or experiencing compressive force in both directions. Member, DJ, AJ, BE, and AE are the only members in compression that could fail due to buckling. Reducing buckling failure is possible by again, adding more members so that any members are not overloaded. increasing the thickness or shortening the length will require stronger forces to induce buckling as well, for buckling is most effective at higher slenderness ratios
+### Pins failure modes
+The expected failure mode of the pins would be direct shear for the pin located on Joint B, and bending on the pin at Joint A. I used Claude AI to generate possible failre modes of pin, and with my prompt being "generally speaking what are expected failure modes in pins. are there credible sources i can cite than confirm how my pin will fail? I have my truss in a trapezoidal shape, with the pins on the corners of the long side, with their respective support forces in opposite directions." Claude AI gave me seven different ways a pin could fail, with the response verifying my original hypothesis. Pin B (at joint B) has its support force in the negative y direction and member BH in the positive y direction. Direct shear occcurs when parallel forces slide apart a material. Member BH is not completely in the y direction, but the portion of the force acting upwards may inflict direct shear regardless.
+
 
 
