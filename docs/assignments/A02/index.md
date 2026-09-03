@@ -34,9 +34,9 @@ The weight density of AISI 1040 Cold-rolled steel is 490 pound per feet cubed. t
 <br>
 ![WEIGHT_T](WEIGHT_T.png)
 
-### Pins
+### Pins 
 #### Shear stress
-The force and allowable stress in the pins must be evaulated as well. I created another free body diagram of pin A, and the only and largest force acting on it is 20 kN. The pins are made of hardened tool steel, with a yield shear strength of 170 ksi and density of 0.278 pound per square inch. I divided the maximum force by the yield strength to find the minimum cross-sectional area before applying the factor of safety. The minimum area with an applied factor of safety of 4 is 0.1057 square inches or 68.193 millimeters squared.
+The force and allowable stress in the single shear pins must be evaulated as well. I created another free body diagram of pin A, and the only and largest force acting on it is 20 kN. The pins are made of hardened tool steel, with a yield shear strength of 170 ksi and density of 0.278 pound per square inch. I divided the maximum force by the yield strength to find the minimum cross-sectional area before applying the factor of safety. The minimum area with an applied factor of safety of 4 is 0.1057 square inches or 68.193 millimeters squared.
 <br>
 <br>
 ![PINSHEAR](PINSHEAR.png)
@@ -54,4 +54,12 @@ The mass calculated from SolidWorks for the truss and pins are 5896.43 grams and
 ![PINPIN](PINPIN.png)
 
 ## Communicate
+### Truss members expected failure mode
+#### Yielding 
+Members CF, DF, CH, CB, AJ, and DJ are the most likely to fail due to the yield strength. The fact that these members in tension makes them for susceptible for the reason that stretching steel, in this case cold rolled AISI 1040 steel, is a ductile material in this case and takes less strength than it is to compress it. limiting members in tension is not realistic, but a design modification to stop the possibility of those members failing is to add more members in tension, that way the load is distributed over more members and keeps it in the elastic range.
+#### Fracture
+Fracture occurs when an external load or internal stress exceeds the materials strength. Members CF, DF, BH, BE, EA, AJ, have the possibility to fail from fracture, considering external forces are concentrated at the joints and experience the most internal force. Adding more members connected to joints A, B, C, and D would reduce the likelihood of fracture faliure, for the internal forces derived from the external load would be distributed to more members, lowering the overall stress that could exceed the steel's strength.
+#### Buckling
+Buckling is most common in members connected to a pin and feeling a compressive force or compression in both directions. 
+
 
