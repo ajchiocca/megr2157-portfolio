@@ -48,9 +48,11 @@ With a given density of the pins' material, the weight of the two pins can be ca
 
 ## Decide 
 ### CAD models
-The mass calculated from SolidWorks for the truss and pins is 5896.43 grams and 7.88 grams. The measurements equate to 56.98 newtons and .153 newtons (combined pin mass), which are close to the estimated value from my calculations. Under the given external load of two 20 kN forces going in opposite directions, the truss design will be able to withstand the load.
+The mass calculated from SolidWorks for the truss and pins is 5896.43 grams and 7.88 grams. The measurements equate to 56.98 newtons and .153 newtons (combined pin mass), which are close to the estimated value from my calculations. Under the given external load of two 20 kN forces going in opposite directions, the truss design will be able to withstand the load. The links for the created Solid works parts are under the image that corresponds to them.
 
 ![CADCAD](CADCAD.png)
+https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A02/truss.SLDPRT
+
 ![PINPIN](PINPIN.png)
 
 ## Communicate
