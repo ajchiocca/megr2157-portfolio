@@ -54,6 +54,7 @@ The mass calculated from SolidWorks for the truss and pins is 5896.43 grams and 
 https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A02/truss.SLDPRT
 
 ![PINPIN](PINPIN.png)
+https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A02/Pin.SLDPRT
 
 ## Communicate
 ### Truss members failure mode
