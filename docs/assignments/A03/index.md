@@ -28,6 +28,7 @@ With defined force and fixture, the simulation is able to run and generate a Von
 ![VonMC](VonMC.png)
 <br>
 ![DefC](DefC.png)
+The percent difference between the calculation deflection, [value] and the deflection from the simulation, [value] is [value].
 ## Communicate
 
 ### Modified design parameters
