@@ -89,7 +89,7 @@ MEGR-2156-7-template/
 ![MaterialP](Mat.png.png)
 ![AppF](AppF.png.png)
 ![FixGeo](FixGeo.png.png)
-![VonM](VonM.png.png)
+![VonMC](VonMC.png.png)
 ![DefC](DefC.png.png)
 
 
