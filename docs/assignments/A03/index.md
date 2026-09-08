@@ -20,6 +20,7 @@ I've chosen the applied force to be 400 pounds, the diameter of the cross sectio
 ## Decide
 ### FEA Simulation
 For the FEA simulation, I added the applied force of 400 to the right end of the bar, and the other end a fixed geometry to emulate the wall in the original figure.
-
+![AppF](AppF.png)
+![FixGeo](FixGeo.png)
 ## Communicate
 
