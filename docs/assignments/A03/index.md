@@ -11,7 +11,7 @@ I've chosen the applied force to be 400 pounds, the diameter of the cross sectio
 [insert work here]
 <br>
 <br>
-[insert def calculations here]
+[insert def calc thing words yes here]
 <br>
 [insert work here]
 
