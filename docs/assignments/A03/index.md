@@ -23,7 +23,7 @@ I've chosen the applied force to be 400 pounds, the diameter of the cross sectio
 For the FEA simulation, I added the applied force of 400 to the right end of the bar, and the other end a fixed geometry to emulate the wall in the original figure. Both are required to run a functional simulation on the bar.
 ![AppF](AppF.png)
 ![FixGeo](FixGeo.png)
-With defined force and fixture, the simulation is able to run and generate a Von Mises stress curve, The simulation produced a heat map, showing its maximum stress and deflection. The max stress on the bar is .4291 KSI, well below the yield strength, 42 KSI. The maximum deflection in the bar is 0.05148 millimeters or .002 inches, which is below the max deflection as well.
+With defined force and fixture, the simulation is able to run and generate a Von Mises stress curve. The simulation produced a heat map, showing its maximum stress and deflection. The max stress on the bar is .4291 KSI, well below the yield strength, 42 KSI. The maximum deflection in the bar is 0.05148 millimeters or .002 inches, which is below the max deflection as well.
 <br>
 ![VonMC](VonMC.png)
 <br>
