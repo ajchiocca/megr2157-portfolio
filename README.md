@@ -87,7 +87,9 @@ MEGR-2156-7-template/
 ![BAREXT](BarExt.png.png)
 ![Variables](Var.png.png)
 ![MaterialP](Mat.png.png)
-
+![AppF](AppF.png.png)
+![FixGeo](FixGeo.png.png)
+![VonM](VonM.png.png)
 
 
 
