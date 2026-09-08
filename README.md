@@ -84,6 +84,8 @@ MEGR-2156-7-template/
 ![PINPIN](PINPIN.png.png)
 
 ![BAROBJ](BarObj.png.png)
+![BAREXT](BarExt.png.png)
+
 
 
 
