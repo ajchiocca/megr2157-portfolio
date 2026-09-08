@@ -83,6 +83,7 @@ MEGR-2156-7-template/
 ![CADCAD](CADCAD.png.png)
 ![PINPIN](PINPIN.png.png)
 
+![BAROBJ](BarObj.png.png)
 
 
 
