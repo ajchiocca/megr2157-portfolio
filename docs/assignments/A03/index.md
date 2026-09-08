@@ -7,6 +7,14 @@ The objective of this assignment was to design bar of a circular cross section i
 ![BAROBJ](BarObj.png)
 ## Analyze
 I've chosen the applied force to be 400 pounds, the diameter of the cross sectional area 0.5 inches, and the material as 2014-T6 aluminum alloy with a modulus of elasticity is 10600 KSI, according to 'Mechanics of Materials: An Integrated Learning System, 5th edition'. By rearranging the direct tension elongation equation. the length of the bar can be found using the known variables: the deflection, modulus of elasticity, and cross sectional area. The CAD software chosen was SolidWorks, and its important to note that SolidWorks has 2014-T6 aluminum alloy available with a slightly different modulus of elasticity from the book, so I've separated two lengths as the calculated length and SolidWorks length. The calculated length was [insert length] and the length from SolidWorks is 46.39 inches. The variable "L" in SolidWorks uses the modulus of elasticity given in SolidWorks.
+<br>
+[insert work here]
+<br>
+<br>
+[insert def calculations here]
+<br>
+[insert work here]
+
 
 ### CAD
 [insert cross sectional area]
