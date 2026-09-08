@@ -85,6 +85,8 @@ MEGR-2156-7-template/
 
 ![BAROBJ](BarObj.png.png)
 ![BAREXT](BarExt.png.png)
+![Variables](Var.png.png)
+![MaterialP](Mat.png.png)
 
 
 
