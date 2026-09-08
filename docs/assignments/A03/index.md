@@ -23,7 +23,7 @@ For the FEA simulation, I added the applied force of 400 to the right end of the
 ![FixGeo](FixGeo.png)
 With defined force and fixture, the simulation is able to run and generate a Von Mises stress curve, The simulation produced a heat map, showing its maximum stress and deflection. The max stress on the bar is .4291 KSI, well below the yield strength, and the maximum deflection in the bar is 0.05148 millimeters or .002 inches, which is below the max deflection as well.
 <br>
-[vvvv]
+![VonMC](VonMC.png)
 <br>
 ![DefC](DefC.png)
 ## Communicate
