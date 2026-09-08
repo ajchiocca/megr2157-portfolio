@@ -12,6 +12,10 @@ I've chosen the applied force to be 400 pounds, the diameter of the cross sectio
 [insert cross sectional area]
 <br>
 ![BAREXT](BarExt.png)
+<br>
+![Variables](Var.png)
+<br>
+![MaterialP](Mat.png)
 
 ## Decide
 
