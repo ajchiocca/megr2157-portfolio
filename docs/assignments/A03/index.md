@@ -36,3 +36,6 @@ With defined force and fixture, the simulation is able to run and generate a Von
 ![DefC](DefC.png)
 ## Communicate
 
+### Modified design parameters
+
+
