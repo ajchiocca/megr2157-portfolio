@@ -91,6 +91,7 @@ MEGR-2156-7-template/
 ![FixGeo](FixGeo.png.png)
 ![VonMC](VonMC.png.png)
 ![DefC](DefC.png.png)
+![CALC](IMG_1391.png.png)
 
 
 
