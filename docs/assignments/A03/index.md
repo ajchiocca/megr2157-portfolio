@@ -11,7 +11,7 @@ I've chosen the applied force to be 400 pounds, the diameter of the cross sectio
 ![CALC](IMG_1391.png)
 
 ### CAD
-[insert cross sectional area]
+![CSA](CSA.png)
 <br>
 ![BAREXT](BarExt.png)
 <br>
