@@ -33,6 +33,8 @@ The percent difference between the calculation deflection, .0089 inches and the 
 <br>
 <br>
 If there were a pin hole on the left hand side, the stress near the hole must be evaluated as well. The stress concentration factor of a beam of a solid circle, no other geometry involved, would be 1.0. With the nominal stress on the beam according to the FEA being .492 KSI, the maximum stress felt on he hole can be evaluated to be 1.0 times the nominal stress, making the maximum stress also .492 KSI. The maximum stress that low passes the safety factor.
+<br>
+![Kt](Kt.png)
 ## Communicate
 I estimate spending four to six hours on this assignment, including editing the GitHub page. At first, I had trouble finding the length of the beam for the different units involved misconstrued the length. Converting to desired units was an ordeal as well, for the values of the stress and deflection in the FEA analysis were originally in megapascals and millimeters. Generally speaking, there wasn't a true obstacle that came with the assignment, just necessary nuisances that were from my own doing.
 ### Modified design parameters
