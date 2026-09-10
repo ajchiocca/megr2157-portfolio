@@ -11,7 +11,7 @@ I've chosen the applied force to be 400 pounds, the diameter of the cross sectio
 ![CALC](IMG_1391.png)
 
 ### CAD
-https://github.com/ajchiocca/megr2157-portfolio/blob/main/docs/assignments/A03/BeamwithFEA.SLDPRT
+docs/assignments/A03/BeamwithFEA.SLDPRT
 ![CSA](CSA.png)
 <br>
 ![BAREXT](BarExt.png)
