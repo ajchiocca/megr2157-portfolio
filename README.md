@@ -94,6 +94,7 @@ MEGR-2156-7-template/
 ![CALC](IMG_1391.png.png)
 ![CSA](CSA.png.png)
 ![NEWV](NEWV.png.png)
+![Kt](Kt.png.png)
 
 
 
