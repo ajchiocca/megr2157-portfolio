@@ -95,6 +95,7 @@ MEGR-2156-7-template/
 ![CSA](CSA.png.png)
 ![NEWV](NEWV.png.png)
 ![Kt](Kt.png.png)
+[Download SolidWorks Part](./A03/BeamwithFEA.SLDPRT)
 
 
 
