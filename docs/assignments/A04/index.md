@@ -55,7 +55,10 @@ Base (b) = 29.78mm
 The two equations gave a height of 12.609 millimeters and 15.857 millimeters. To account for both bending and deflection, the largest value, 15.857 millimeters must be the chosen height for feature 2. 
 
 ## Sketch
-With all the dimensions for the motor mount without the holes/other features in the design, an isometric view of the motor mount can made. Note that the dimensions labelled on the isometric are not drawn to scale. An accurate isometric view would have a broader/square shape
+With all the dimensions for the motor mount without the holes/other features in the design, an isometric view of the motor mount can made. Note that the dimensions labelled on the isometric are not drawn to scale. An accurate isometric view would have a broader/square shape.
+<br>
+<br>
+![iso](iso.png)
 
 
 ## CAD model (Parametric)
