@@ -97,6 +97,21 @@ MEGR-2156-7-template/
 ![Kt](Kt.png.png)
 [Download SolidWorks Part](./A03/BeamwithFEA.SLDPRT)
 
+![Assembly](Assembly.png.png)
+![Eq](Eq.png.png)
+![FT1H](F1TH.png.png)
+![FT1S](F1TS.png.png)
+![FT1X](F1TX.png.png)
+![FT2](FT2.png.png)
+![FT2S](FT2S.png.png)
+![FT2X](FT2X.png.png)
+![Ft1w](Ft1w.png.png)
+![Ft2w](Ft2w.png.png)
+![MMount](MMount.png.png)
+![MMountU](MMountU.png.png)
+![Motor](Motor.png.png)
+![iso](iso.png.png)
+
 
 
 
