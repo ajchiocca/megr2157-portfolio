@@ -93,7 +93,8 @@ With both features extruded and made into parts, the model follows the same illu
 ![ft1small](ft1small.png)
 <br>
 <br>
-The holes in feature 2 acted as bolts to hold the motor to the wall. The four holes are designed to be 3.4 millimeter clearance holes. The clearance hole finalizes the motor mount design. 
+The holes in feature 2 acted as bolts to hold the motor to the wall. The four holes are designed to be 3.4 millimeter clearance holes. The clearance hole finalizes the motor mount design.
+[Download Motor Mount SolidWorks Part Here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A04/motor%20mount.SLDPRT). 
 <br>
 <br>
 ![FT2](FT2.png)
@@ -101,7 +102,7 @@ The holes in feature 2 acted as bolts to hold the motor to the wall. The four ho
 ![Drawing](Drawing.png)
 <br>
 <br>
-Just out of curiosity, I modeled the motor itself to see how it would fit with the motor mount. As i expected, the motor mounts. The height of feature 1, brought up earlier, if longer than the shaft.
+Just out of curiosity, I modeled the motor itself to see how it would fit with the motor mount. As i expected, the motor mounts. The height of feature 1, brought up earlier, if longer than the shaft. [Download Motor SolidWorks Part Here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A04/Motos.SLDPRT)
 <br>
 <br>
 ![Motor](Motor.png)
