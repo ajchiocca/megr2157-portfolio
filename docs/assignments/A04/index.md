@@ -80,6 +80,9 @@ I then sketched feature 2 one on of the faces of feature 1, and dimensioned it a
 <br>
 ![FT2S](FT2S.png)
 ![FT2X](FT2X.png)
+<br>
+<br>
+With both features extruded and made into parts, the model follows the same illustration as the isometric view. The next step was to apply the holes to each feature. Feature 1 has a hole in the center of a 18 millimeter diameter and a hole of 6.025 millimeters to account for the motor design.
 
 ## Appendix
 
