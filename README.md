@@ -111,6 +111,7 @@ MEGR-2156-7-template/
 ![MMountU](MMountU.png.png)
 ![Motor](Motor.png.png)
 ![iso](iso.png.png)
+![Drawing](Drawing.png.png)
 
 
 
