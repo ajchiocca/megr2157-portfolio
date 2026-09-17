@@ -98,6 +98,14 @@ The holes in feature 2 acted as bolts to hold the motor to the wall. The four ho
 <br>
 ![FT2](FT2.png)
 ![MMount](MMount.png)
+![Drawing](Drawing.png)
+<br>
+<br>
+Just out of curiosity, I modeled the motor itself to see how it would fit with the motor mount. As i expected, the motor mounts. The height of feature 1, brought up earlier, if longer than the shaft.
+<br>
+<br>
+![Motor](Motor.png)
+![Assembly](Assembly.png)
 
 
 
