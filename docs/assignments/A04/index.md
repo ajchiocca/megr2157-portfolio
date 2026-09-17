@@ -19,6 +19,8 @@ distance from N.A (C) = 20/2 = 10mm
 <br>
 Safety factor (S.F) = 3
 <br>
+Deflection (delta) = 0.30mm
+<br>
 yield strength of PETG (Sy) = 50 MPa
 <br>
 <br>
@@ -31,6 +33,24 @@ Equating the base dimension for both equations gave a width of 11.88 millimeters
 ![desmos](desmos.png)
 
 ## Feature 2
+The other feature of the motor mount is feature 2, where it would be attached to the wall/act as the wall. I treated feature 2 as another cantilever beam, rotating it to the same orientation as the free body diagram for feature 1, and because the base dimension is already found, and has to stay that dimension, the height must be optimized for bending and deflection instead. The height in this case would be how much the features extruded to. The same bending moment and maximum deflections were used, only solving for height now, and the base as a new varible:
+<br>
+<br>
+Length (L) = 44 millimeters
+<br>
+Moment (M) = 300N * 44mm = 13200 Nmm
+<br>
+Allowable stress(sigma) = 16.67 MPa
+<br>
+Elasticity of PETG (E) = 2145 MPa
+<br>
+Deflection (delta) = 0.30mm
+<br>
+Base (b) = 29.78mm
+<br>
+![Ft2w](Ft2w.png)
+
+
 
 
 ## Sketch
