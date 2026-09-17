@@ -85,11 +85,20 @@ I then sketched feature 2 one on of the faces of feature 1, and dimensioned it a
 ![FT2X](FT2X.png)
 <br>
 <br>
-With both features extruded and made into parts, the model follows the same illustration as the isometric view. The next step was to apply the holes to each feature. Feature 1 has a hole in the center of a 18 millimeter diameter and a hole of 6.025 millimeters to account for the motor design.
-
+With both features extruded and made into parts, the model follows the same illustration as the isometric view. The next step was to apply the holes to each feature. Feature 1 has a hole in the center of a 18 millimeter diameter, extruded 2 millimeters and a hole of 6.025 millimeters through the whole part to account for the motor design.
+<br>
+<br>
 ![MMountU](MMountU.png)
 ![ft1big](ft1big.png)
 ![ft1small](ft1small.png)
+<br>
+<br>
+The holes in feature 2 acted as bolts to hold the motor to the wall. The four holes are designed to be 3.4 millimeter clearance holes. The clearance hole finalize the motor mount design.
+<br>
+<br>
+![FT2](FT2.png)
+![MMount](MMount.png)
+
 
 
 
