@@ -93,7 +93,7 @@ With both features extruded and made into parts, the model follows the same illu
 ![ft1small](ft1small.png)
 <br>
 <br>
-The holes in feature 2 acted as bolts to hold the motor to the wall. The four holes are designed to be 3.4 millimeter clearance holes. The clearance hole finalize the motor mount design.
+The holes in feature 2 acted as bolts to hold the motor to the wall. The four holes are designed to be 3.4 millimeter clearance holes. The clearance hole finalizes the motor mount design.
 <br>
 <br>
 ![FT2](FT2.png)
