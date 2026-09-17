@@ -73,6 +73,13 @@ I sketched feature 1 first and applied the variables to its dimensions and extru
 <br>
 ![FT1S](FT1S.png)
 ![FT1X](FT1X.png)
+<br>
+<br>
+I then sketched feature 2 one on of the faces of feature 1, and dimensioned it as such. The rectangle form of the beam was the length, 44 millimeters, by the base, 29.78 millimeters. the part was then extruded to the height, 15.87 millimeters
+<br>
+<br>
+![FT2S](FT2S.png)
+![FT2X](FT2X.png)
 
 ## Appendix
 
