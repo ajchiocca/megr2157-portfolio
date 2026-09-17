@@ -48,16 +48,18 @@ Deflection (delta) = 0.30mm
 <br>
 Base (b) = 29.78mm
 <br>
+<br>
 ![Ft2w](Ft2w.png)
-
-
-
+<br>
+<br>
+The two equations gave a height of 12.609 millimeters and 15.857 millimeters. To account for both bending and deflection, the largest value, 15.857 millimeters must be the chosen height for feature 2. 
 
 ## Sketch
+With all the dimensions for the motor mount without the holes/other features in the design, an isometric view of the motor mount can made. Note that the dimensions labelled on the isometric are not drawn to scale. An accurate isometric view would have a broader/square shape
 
 
 ## CAD model (Parametric)
-
+With all dimensions, I design 
 
 ## Appendix
 
