@@ -107,9 +107,12 @@ Just out of curiosity, I modeled the motor itself to see how it would fit with t
 <br>
 ![Motor](Motor.png)
 ![Assembly](Assembly.png)
-
-
-
-
 ## Appendix
-
+I've researched other motor mount designs as well, or rather a better way to describe it is that I was assigned to do so. There is the 3D-printable design by "Innov8tive designs" for 45 millimeter diameter motors that has a cylindrical shape that I would assume be attached parallel to the normal vector of the shape. Another design I found was the "top-down approach" on you tube. As the name suggests, the motor is connected to the top of the mount by four bolts. A final motor mount design on the Eske forum was for the Acedeck NYX 3 skateboard, thats mounted at the end of the skateboard, where the motor is. I've linked the URL's to each motor mounts below:
+<br>
+<br>
+https://innov8tivedesigns.com/3d-printed-motor-mount-for-45mm-motors-55mm-length.html?srsltid=AU7gw4UdYanQME-7GxV9gQopl5dZ8QZf8ufwEpteqXY9tXpVT4cPkzFV
+<br>
+youtube.com/watch?v=P4I4hi27s2o
+<br>
+https://forum.esk8.news/t/acedeck-nyx-3-truck-motor-mounts/84790/4
