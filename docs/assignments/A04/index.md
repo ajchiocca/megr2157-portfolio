@@ -62,7 +62,17 @@ With all the dimensions for the motor mount without the holes/other features in 
 
 
 ## CAD model (Parametric)
-With all dimensions, I design 
+With all dimensions and calculations out of the way, I parametrically designed the motor mount on SolidWorks. I first added global variables to the equation editor to make it parametric in the first place, and assign sketch dimensions to those variables. The equations that gave the chosen base and height dimensions were the only two equations added to the equation editor, as the other two dont comply with bending and deflection.
+<br>
+<br>
+![Eq](Eq.png)
+<br>
+<br>
+I sketched feature 1 first and applied the variables to its dimensions and extrusion. The dimensions don't show that they are, but they are, so thats that.
+<br>
+<br>
+![FT1S](FT1S.png)
+![FT1X](FT1X.png)
 
 ## Appendix
 
