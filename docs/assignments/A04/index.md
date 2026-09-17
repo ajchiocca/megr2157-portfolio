@@ -23,6 +23,9 @@ yield strength of PETG (Sy) = 50 MPa
 <br>
 <br>
 ![Ft1w](Ft1w.png)
+<br>
+<br>
+Equating the base dimension for both equations gave a width of 11.88 millimeters and 29.78 millimeters. the width must account for both bending and deflection, so the minimum width should be 29.78 millimeters. The motor itself has a diameter of 28 millimeters on the body, so it would have to be a larger dimension regardless. note that the allowable stress for the beam wasn't calculated before hand, as that explains why the yield strength and safety factor are part of the known variables and not comprised into the allowable stress. Both methods give the same base width. There are obviously some design "critiques", for the height of the beam extends beyond the motors shaft, but if you were to graph the base dimension as a function of the height, any height measurement below 20 gives a height dimension that may be considered unreasonable, or at least in my opinion
 
 
 ## Feature 2
