@@ -1,5 +1,8 @@
 # A4 – Motor Mount
+![motord](motord.png)
 ![all](all.png)
+
+
 
 ## Feature 1
 The first task of the assignment was to design for feature 1, the face where the motor will connect too. For simplicity, feature 1 can be treated as a cantilever beam. the applied force of 300N on the shaft of the motor is translated to the moment on feature 1, which would be the force times the chosen length. From the cross sectional area of the beam, the base/width of the area is the dimension that will be optimized for bending and deflection to find the minimum width the mount should be to account for both. The height and length of the beam where predetermined by me.
@@ -83,6 +86,8 @@ I then sketched feature 2 one on of the faces of feature 1, and dimensioned it a
 <br>
 <br>
 With both features extruded and made into parts, the model follows the same illustration as the isometric view. The next step was to apply the holes to each feature. Feature 1 has a hole in the center of a 18 millimeter diameter and a hole of 6.025 millimeters to account for the motor design.
+
+
 
 ## Appendix
 
