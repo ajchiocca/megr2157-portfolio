@@ -113,6 +113,8 @@ I've researched other motor mount designs as well, or rather a better way to des
 <br>
 https://innov8tivedesigns.com/3d-printed-motor-mount-for-45mm-motors-55mm-length.html?srsltid=AU7gw4UdYanQME-7GxV9gQopl5dZ8QZf8ufwEpteqXY9tXpVT4cPkzFV
 <br>
+<br>
 youtube.com/watch?v=P4I4hi27s2o
+<br>
 <br>
 https://forum.esk8.news/t/acedeck-nyx-3-truck-motor-mounts/84790/4
