@@ -65,13 +65,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/YOUR_USERNAME
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/YOUR_USERNAME
-
 nav:
   - Home: index.md
   - About Me: aboutme/index.md
@@ -86,9 +79,6 @@ nav:
       - A6: assignments/A06/index.md
       - A7: assignments/A07/index.md
       - A8: assignments/A08/index.md
-      - A9: assignments/A09/index.md
-      - A10: assignments/A10/index.md
-      - A11: assignments/A11/index.md
       - A9: assignments/A09/index.md
       - A10: assignments/A10/index.md
       - A11: assignments/A11/index.md
