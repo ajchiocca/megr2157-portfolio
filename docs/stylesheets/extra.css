@@ -37,3 +37,19 @@
   transform: translateY(-1px);
   transition: transform 0.15s ease;
 }
+
+:root {
+  --md-typeset-a-color: var(--md-accent-fg-color);
+}
+
+/* Sidebar: highlight the assignment/section you're currently on in accent */
+.md-nav__link--active,
+.md-nav__link:hover {
+  color: var(--md-accent-fg-color) !important;
+}
+
+/* Top tabs: same treatment for the active tab */
+.md-tabs__item--active > .md-tabs__link,
+.md-tabs__link:hover {
+  color: var(--md-accent-fg-color) !important;
+}
