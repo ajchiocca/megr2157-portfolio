@@ -1,10 +1,6 @@
-site_name: MEGR 2157 – Design Portfolio
-site_description: Design portfolio documentation, built with the Analyze / Decide / Communicate framework
-
 theme:
   name: material
   palette:
-    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue grey
@@ -12,7 +8,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue grey
@@ -28,22 +23,21 @@ theme:
     repo: fontawesome/brands/github
   features:
     - navigation.instant
-    - navigation.tracking
-    - navigation.tabs          # top-level tabs instead of a sidebar dump
+    - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections      # group assignments visually
-    - navigation.top           # "back to top" button
-    - navigation.footer        # prev/next page links
-    - navigation.indexes       # section landing pages (e.g. Assignments overview)
-    - toc.follow
-    - toc.integrate
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes      # needs assignments/index.md — see below
+    - toc.follow              # NOT toc.integrate — conflicts with navigation.indexes
     - search.suggest
     - search.highlight
     - search.share
-    - content.code.copy        # copy button on code blocks
+    - content.code.copy
     - content.tabs.link
     - content.tooltips
-    - header.autohide
+    # navigation.tracking and header.autohide removed — both cause
+    # instability when combined with instant loading
 
 extra_css:
   - stylesheets/extra.css
@@ -65,15 +59,18 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
 
 plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_USERNAME
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/YOUR_USERNAME
 
 nav:
   - Home: index.md
@@ -89,6 +86,9 @@ nav:
       - A6: assignments/A06/index.md
       - A7: assignments/A07/index.md
       - A8: assignments/A08/index.md
+      - A9: assignments/A09/index.md
+      - A10: assignments/A10/index.md
+      - A11: assignments/A11/index.md
       - A9: assignments/A09/index.md
       - A10: assignments/A10/index.md
       - A11: assignments/A11/index.md
