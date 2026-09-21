@@ -3,6 +3,7 @@ site_description: MEGR 2157 engineering portfolio
 site_url: https://ajchiocca.github.io/megr2157-portfolio/
 
 theme:
+  name: material
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
