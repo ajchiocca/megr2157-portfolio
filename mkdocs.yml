@@ -4,21 +4,83 @@ site_description: Design portfolio documentation, built with the Analyze / Decid
 theme:
   name: material
   palette:
-    scheme: 
-    primary: blue grey
-    accent: teal
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/pencil-ruler
+    repo: fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tracking
-  features:
-    - navigation.instant
-    - navigation.tracking
+    - navigation.tabs          # top-level tabs instead of a sidebar dump
+    - navigation.tabs.sticky
+    - navigation.sections      # group assignments visually
+    - navigation.top           # "back to top" button
+    - navigation.footer        # prev/next page links
+    - navigation.indexes       # section landing pages (e.g. Assignments overview)
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy        # copy button on code blocks
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 nav:
   - Home: index.md
   - About Me: aboutme/index.md
   - Portfolio Overview: portfolio-overview.md
   - Assignments:
+      - assignments/index.md
       - A1: assignments/A01/index.md
       - A2: assignments/A02/index.md
       - A3: assignments/A03/index.md
