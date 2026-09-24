@@ -53,6 +53,9 @@ A Link must be designed that connects feature A to another cylindrical feature, 
 ![grade](grade.png)
 
 ## Multiview drawings
+Some dimensions are blurry due to the adobe scan, but the dimension on the top view is 5 inches, 1.604 inches from the stress analysis, and .222 inches from the stiffness analysis.
+![StressA](StressA.png)
+![StiffA](StiffA.png)
 
 ## Lessons learned
 
