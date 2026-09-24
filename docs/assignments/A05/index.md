@@ -54,10 +54,13 @@ A Link must be designed that connects feature A to another cylindrical feature, 
 
 ## Multiview drawings
 Some dimensions are blurry due to the adobe scan, but the dimension on the top view is 5 inches, 1.604 inches from the stress analysis, and .222 inches from the stiffness analysis.
+<br>
+<br>
 ![StressA](StressA.png)
 ![StiffA](StiffA.png)
 
 ## Lessons learned
+All of my dimensions were governed by the stress bending equations, at most by 1.2. That may be what's expected, but I'm not sure myself. From assuming features are all beams, that may lean more towards a stronger bending force, especially for cantilever beams and ones with concentrated loads in the middle. Some free body diagrams could have been misinterpreted or done incorrectly as well, for features D and E aren't specified to what they should be treated as. The one value that carried over to almost all of them was the shafts length. The length of 5 inches carried over to the base length and feature E. One assumption I made was the link was an axially loaded beam to honestly to get it over with. If the link were treated as it is, the moment of inertia would be more complicated but more accurate to the dimension regardless. Overall I may have spent eight hours in total working on this assignment. Most of it was figuring out what I have to do and the free body diagrams.
 
 
 
