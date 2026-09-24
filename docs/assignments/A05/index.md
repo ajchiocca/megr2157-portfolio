@@ -40,6 +40,15 @@ Feature E is the final feature to be evaluated, excluding the link, although I l
 <br>
 ![FTE](FTE.png)
 
+### Link
+![link](link.png)
+<br>
+<br>
+A Link must be designed that connects feature A to another cylindrical feature, such that the connection can hold using the same amount of force. From the instructions, it says the hole in the link must be 1 inch, and because my diameter must be 1.83 inches to minimize bending and deflection, I design the link to fit a 1.83 inch diameter shaft. For simplicity I assumed the shape of the link to be a rectangle a treated it as an axially loaded bar, that way I can assume a reasonable length and optimize the thickness of the link. The calculated thickness of the link were between .024 inches and .12 inches- you can guess what the dimension should be used by now.
+
+![FTE](FTE.png)
+
+
 
 
 
