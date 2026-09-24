@@ -48,6 +48,9 @@ A Link must be designed that connects feature A to another cylindrical feature, 
 <br>
 <br>
 ![FTE](FTE.png)
+![table](table.png)
+![tol](tol.png)
+![grade](grade.png)
 
 ## Multiview drawings
 
