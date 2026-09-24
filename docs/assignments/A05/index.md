@@ -38,5 +38,8 @@ image
 Feature E is the final feature to be evaluated, excluding the link, although I love the idea the MEGR 2157 students have more work to do. I treated the feature as another beam with a concentrated load in the middle and evaluated the height of the part. the base length should be 1 inch according to the T-beams dimension of .992 inches. The base dimension was between 1.9 inches and .908 inches, which again, the largest dimension 1.9 inches is chosen to account for bending and deflection.
 <br>
 <br>
+![FTE](FTE.png)
+
+
 
 
