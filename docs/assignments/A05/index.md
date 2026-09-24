@@ -26,13 +26,13 @@ Feature B is the section that connects feature A to the rest of the part. I trea
 Feature C is the base support of the bracket. I treated the feature as a simply support beam with a concentrated load at the center with a length of 5 inches. The max deflection changes as well, to now deflection = PL^3/48EI. the variable to solve was the height. The base of feature C only extends to the brackets ends, so it must be .499 + .9992 + .9992 + tolerance so that it fits. I used b equal to 2.5 inches in my calculations, and the estimated height was between 1.2 inches and .669 inches. 1.2 inches was the chosen height
 <br>
 <br>
-image
+![FTC](FTC.png)
 
 ### Feature D
 I treated feature D as another bar with a concentrated load in the middle, as it would make more sense if the force were concentrated in the middle rather than one point on its end or laterally. The same equations are used from feature C, only that the base dimension is to be found. The height of the feature is from the T-beams height, 1.4992, but simplified to 1.5 inches. The evaluated base for feature D were 1.604 inches and 0.222 inches-1.604 inches is obviously the correct choice.
 <br>
 <br>
-image
+![FTD](FTD.png)
 
 ### Feature E
 Feature E is the final feature to be evaluated, excluding the link, although I love the idea the MEGR 2157 students have more work to do. I treated the feature as another beam with a concentrated load in the middle and evaluated the height of the part. the base length should be 1 inch according to the T-beams dimension of .992 inches. The base dimension was between 1.9 inches and .908 inches, which again, the largest dimension 1.9 inches is chosen to account for bending and deflection.
