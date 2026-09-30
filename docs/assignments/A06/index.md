@@ -19,7 +19,19 @@ The first feature to model/start with is Feature A. Feature A is a cylinder of a
 ![ftA](ftA.png)
 <br>
 <br>
-I sketched Feature B on the other side of Feature A, resembling a rectangle of width 1.83 inches, the diameter of feature A, and a chosen length of 4 inches
+I sketched Feature B on the other side of Feature A, resembling a rectangle of width 1.83 inches, the diameter of feature A, and a chosen length of 4 inches. The driven dimensions what the features thickness, and in this case, how far the sketch is extruded is the thickness, which is 1.26 inches.
+<br>
+<br>
+![ftB](ftB.png)
+<br>
+<br>
+Feature C was sketched on feature B's face. Feature C isn't the whole base support, but rather the support/section under the hole where the T-beam would go. In this case, the features chosen width and length are 2.5 inches and 5 inches. The driven dimension is the height, 1.2 inches that was part of the original sketch. I am aware that between each features, base, length, and height are in different orientations. If there is any confusion about what dimensions are which, the calculations done in A5 help determine the dimensions I'm describing.
+<br>
+<br>
+![ftC1](ftC1.png)
+![ftC2](ftC2.png)
+<br>
+<br>
 
 
 ## Drawing
