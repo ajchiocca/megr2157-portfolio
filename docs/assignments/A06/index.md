@@ -11,6 +11,9 @@ All the driven dimensions from A5 were already found, and the next step is to pa
 <br>
 <br>
 ![Eq](Eq.png)
+<br>
+<br>
+The first feature to model/start with is Feature A. Feature A is a cylinder of a driven diameter of 1.83 inches and chosen length of 4 inches.
 
 ## Drawing
 
