@@ -17,6 +17,9 @@ The first feature to model/start with is Feature A. Feature A is a cylinder of a
 <br>
 <br>
 ![ftA](ftA.png)
+<br>
+<br>
+I sketched Feature B on the other side of Feature A, resembling a rectangle of width 1.83 inches, the diameter of feature A, and a chosen length of 4 inches
 
 
 ## Drawing
