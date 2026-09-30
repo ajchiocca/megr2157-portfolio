@@ -36,9 +36,5 @@ Feature C was sketched on feature B's face. Feature C isn't the whole base suppo
 
 ## Drawing
 
-
-## Decide
-
-
 ## Reflections
 
