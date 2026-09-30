@@ -25,7 +25,7 @@ I sketched Feature B on the other side of Feature A, resembling a rectangle of w
 ![ftB](ftB.png)
 <br>
 <br>
-Feature C was sketched on feature B's face. Feature C isn't the whole base support, but rather the support/section under the hole where the T-beam would go. In this case, the features chosen width and length are 2.5 inches and 5 inches. The driven dimension is the height, 1.2 inches that was part of the original sketch. I am aware that between each features, base, length, and height are in different orientations. If there is any confusion about what dimensions are which, the calculations done in A5 help determine the dimensions I'm describing.
+Feature C was sketched on feature B's face. Feature C isn't the whole base support, but rather the support/section under the hole where the T-beam would go. In this case, the features chosen width and length are 2.5 inches and 5 inches. The driven dimension is the height, 1.2 inches that was part of the original sketch. I am aware that between each features, base, length, and height are in different orientations. If there is any confusion about what dimensions are which, the calculations done in A5 help determine the dimensions I'm describing. 
 <br>
 <br>
 ![ftC1](ftC1.png)
@@ -53,7 +53,7 @@ The "filler" for the bracket is the feature that connects the bracket as one who
 ![fill2](fill2.png)
 <br>
 <br>
-A link to connect feature A to other parts had to be parametrically modeled as well. The chosen dimensions for the link could have been almost just anything, just as long as it didn't collide with the bracket above. I chose the height of the link to be 6 inches for that matter and the distance between the end of the part and the holes to be 1.83 inches. the base of the link was chosen as 2.25 inches, and the Ddriven dimension was the parts thickness, which was driven as 0.12 inches.
+A link to connect feature A to other parts had to be parametrically modeled as well. The chosen dimensions for the link could have been almost just anything, just as long as it didn't collide with the bracket above. I chose the height of the link to be 6 inches for that matter and the distance between the end of the part and the holes to be 1.83 inches. the base of the link was chosen as 2.25 inches, and the Ddriven dimension was the parts thickness, which was driven as 0.12 inches.The chamfers on the corners of the sketch were purely for aesthetic and consideration for if the corners of the link would collide with whatever it would attach to in addition to the bracket.
 
 
 
