@@ -32,6 +32,11 @@ Feature C was sketched on feature B's face. Feature C isn't the whole base suppo
 ![ftC2](ftC2.png)
 <br>
 <br>
+Feature D was sketched on the two corners of feature C, and like feature C, on of its dimensions are based on the hole for the T-beam. the chosen dimensions were its length of 5 inches and a height of 1.5 inches. The driven dimension was the base/width, which was evaluated a 1.6 inches. The page showcasing the extrusion on feature D isnt the clearest, but its the best perspective to showcase the depth while showing the other dimensions.
+<br>
+<br>
+![ftD1](ftD1.png)
+![ftD2](ftD2.png)
 
 
 ## Drawing
