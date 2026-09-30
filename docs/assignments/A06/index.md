@@ -51,6 +51,9 @@ The "filler" for the bracket is the feature that connects the bracket as one who
 <br>
 ![fill1](fill1.png)
 ![fill2](fill2.png)
+<br>
+<br>
+A link to connect feature A to other parts had to be parametrically modeled as well. The chosen dimensions for the link could have been almost just anything, just as long as it didn't collide with the bracket above. The chose the height of the link to
 
 
 ## Drawing
