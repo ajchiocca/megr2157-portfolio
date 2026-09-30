@@ -53,7 +53,8 @@ The "filler" for the bracket is the feature that connects the bracket as one who
 ![fill2](fill2.png)
 <br>
 <br>
-A link to connect feature A to other parts had to be parametrically modeled as well. The chosen dimensions for the link could have been almost just anything, just as long as it didn't collide with the bracket above. The chose the height of the link to
+A link to connect feature A to other parts had to be parametrically modeled as well. The chosen dimensions for the link could have been almost just anything, just as long as it didn't collide with the bracket above. I chose the height of the link to be 6 inches for that matter and the distance between the end of the part and the holes to be 1.83 inches. the base of the link was chosen as 2.25 inches, and the Ddriven dimension was the parts thickness, which was driven as 0.12 inches.
+
 
 
 ## Drawing
