@@ -44,6 +44,13 @@ Feature E is the last parametrically driven feature for the bracket. The chosen 
 <br>
 ![ftE1](ftE1.png)
 ![ftE2](ftE2.png)
+<br>
+<br>
+The "filler" for the bracket is the feature that connects the bracket as one whole part. I sketched four rectangles that connected Features C, D, and E's corners to finalize the design. The filler is extruded to 5 inches as well for consistency for the whole part.
+<br>
+<br>
+![fill1](fill1.png)
+![fill2](fill2.png)
 
 
 ## Drawing
