@@ -37,6 +37,13 @@ Feature D was sketched on the two corners of feature C, and like feature C, on o
 <br>
 ![ftD1](ftD1.png)
 ![ftD2](ftD2.png)
+<br>
+<br>
+Feature E is the last parametrically driven feature for the bracket. The chosen dimensions were its length of 5 inches and base of 1 inch. The driven dimension was the feature height that calculated as 1.9 inches.
+<br>
+<br>
+![ftE1](ftE1.png)
+![ftE2](ftE2.png)
 
 
 ## Drawing
