@@ -72,8 +72,8 @@ A link to connect feature A to other parts had to be parametrically modeled as w
 [Download link drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A06/linl5.SLDDRW).
 <br>
 <br>
-![bkDW](bkDW.png)
-![lint](lint.png)
+![bkres](bkres.png)
+![lnkyes](lnkyes.png)
 
 ## Reflections
 
