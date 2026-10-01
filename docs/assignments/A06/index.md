@@ -7,7 +7,6 @@ The objective of A5 was to created a bracket design and its dimensions. The obje
 [Download Bracket here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A06/Bracket.SLDPRT).
 <br>
 [Download link here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A06/Link.SLDPRT).
-
 <br>
 <br>
 ![A5](A5.png)
