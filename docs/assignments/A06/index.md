@@ -77,3 +77,8 @@ A link to connect feature A to other parts had to be parametrically modeled as w
 
 ## Reflections
 
+Compatibility came from the limits of both parts, not from a shared nominal. The bracket shaft (Ø1.8310–1.8280) and the link bore (Ø1.8300–1.8316) both read 1.83 at nominal, but the .0010–.0036 clearance exists only because each part carries explicit limits checked against the other. At the title block's ±.005, a bore could have measured 1.825, smaller than the shaft. The press-fit hole cannot absorb positional error, so the minimum clearance at the running-fit hole set the position tolerance at Ø0.001, far tighter than any block class. Datum A and B, the basic center distance, and the interface note tell a machinist which features mate and which are only blank.
+<br>
+<br>
+The pocket height, 1.50 +.0016/−.0000, is a mating surface. The T-beam flange slides in it, and the .0010–.0036 gap limits play. IT8 at this size is about .0016 in, so it is written as an explicit limit that overrides the block. The length of feature B, 4.0 ±.02, mates with nothing. A5 sized it for axial deflection with SF = 4, and ±.02 shifts that deflection by 0.5%. Per Table 8, milling reaches IT10–11 (about .003 to .004 in), while IT7–8 on a through slot needs broaching, grinding, or wire EDM. Holding non-mating features to that grade would add setups and inspection with no functional return.
+
