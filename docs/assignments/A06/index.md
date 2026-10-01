@@ -62,6 +62,8 @@ A link to connect feature A to other parts had to be parametrically modeled as w
 
 
 ## Drawing
+![bkDW](bkDW.png)
+![lkDW](lkDW.png)
 
 ## Reflections
 
