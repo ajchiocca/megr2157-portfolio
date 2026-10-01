@@ -68,6 +68,8 @@ A link to connect feature A to other parts had to be parametrically modeled as w
 
 
 ## Drawing
+[Download Bracket drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A06/brck1.SLDDRW).
+[Download link drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A06/link.SLDDRW).
 ![bkDW](bkDW.png)
 ![lkDW](lkDW.png)
 
