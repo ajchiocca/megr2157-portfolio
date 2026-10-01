@@ -2,6 +2,7 @@
 
 ## Parametric design
 The objective of A5 was to created a bracket design and its dimensions. The objective for A6 builds off that bracket, with now to parametrically design the model into CAD and create and engineering drawing. Additonally, From A5, every dimensions that accounted for deflection and bending, the value bigger than the other one, was the variable from the bending equation for every driven dimension. For that matter, every driven dimension described in A6 were based on the parts strength for every "strength value" exceeded the "stiffness value", whether that's from error or it how it expected to be.
+[Download Motor Mount SolidWorks Part Here:](docs/assignments/A06/Bracket.SLDPRT). 
 <br>
 <br>
 ![A5](A5.png)
