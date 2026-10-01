@@ -74,6 +74,14 @@ A link to connect feature A to other parts had to be parametrically modeled as w
 <br>
 ![bkres](bkres.png)
 ![lnkyes](lnkyes.png)
+<br>
+<br>
+The bracket slides over the T-beam, so the slot and pocket are the hole and the beam is the shaft. The beam's limits come from the specification. For the bracket I used .500, 1.000, and 1.500 as the lower limits and added the hole tolerance from Table 8a. The gap is the bracket limit minus the beam limit. The minimum gap is the bracket minimum minus the beam maximum, and the maximum gap is the bracket maximum minus the beam minimum.
+<br>
+<br>
+The beams b and c limits match the RC3 (f6) and RC4 (f7) shaft limits at those sizes, so I used the H7 and H8 holes from the same rows, and the gaps match the clearances in the table. The a dimension didn't match any RC row, so I used the H8 hole (+.0010) for it. Every minimum gap is positive, so the bracket assembles even at the worst case. The Feature A shaft is 1.830 +.0010/-.0020 diameter and the link bore is 1.830 +.0016/-.0000 (RC4). I put these limits directly on the dimensions because the title block's plus or minus .005 would let a 1.000 pocket come out at .995, which is smaller than the beam.
+<br>
+<br>
 
 ## Reflections
 The bending equation for the diameter of feature A drove the thickness of feature B. I expressed that value 1.83 inches with the variable "Dst" into the corresponding equation for the thickness/height of feature B (A5 clarifies the interpretation, from feature B's free body diagram).
@@ -82,7 +90,7 @@ The bending equation for the diameter of feature A drove the thickness of featur
 Compatibility came from the limits of both parts, not from a shared nominal. The bracket shaft, diameter of 1.8310–1.8280, and the link bore, a diameter of 1.8300–1.8316, both read 1.83 at nominal, but the .0010–.0036 clearance exists only because each part carries explicit limits checked against the other. At the title block's plus or minus .005, a bore could have measured 1.825, smaller than the shaft. The press-fit hole cannot absorb positional error, so the minimum clearance at the running-fit hole set the position tolerance at a diameter of 0.001. Datum A and B, the basic center distance, and the interface note tell a machinist which features mate and which are only blank.
 <br>
 <br>
-The pocket height 1.50 +.0016/−.0000 is supposed to be a mating surface. The T-beam flange slides in it, and the .0010–.0036 gap limits play. IT8 at this size is .0016 in, so it overrides the block. The length of feature B, 4.0 plus or minus .02, mates with nothing. I sized it with axial deflection with a safety, and ±.02 shifts that deflection by 0.5%. from Table 8, milling reaches IT10–11 (about .003 to .004 in), while IT7–8 on a through slot needs broaching, grinding, or wire EDM.
+The pocket height 1.50 +.0016/−.0000 is supposed to be a mating surface. The T-beam flange slides in it, and the .0010–.0036 gap limits play. IT8 at this size is .0016 in, so it overrides the block. The length of feature B, 4.0 plus or minus .02, mates with nothing. I sized it with axial deflection with a safety, and ±.01 shifts that deflection by 0.5%. from Table 8, milling reaches IT10–11 (about .003 to .004 in), while IT7–8 on a through slot needs broaching, grinding, or wire EDM.
 <br>
 <br>
 Overall I may have spent at most 2 hours modeling on SolidWorks and their respective drawings. The most difficult part of this assignment was the drawings for the parts, where having to find the right fits and callouts took time to find an understand. I created the GitHub while working on the drawings, so whatever was wrong, the tolerances for the shaft diameter, I had to reupload the correct drawing PNG and SolidWorks drawing. Dimension and tolerancing communicates design intent in the way of how its supposed to be machined and how the part is going to function with other parts. Including the GitHub setup and the mistakes along the way, I estimate the total time I spent on this to be six hours. Out of all the assignments I've done so far, this was the most annoying.
