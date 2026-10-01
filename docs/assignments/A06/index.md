@@ -18,7 +18,7 @@ All the driven dimensions from A5 were already found, and the next step is to pa
 ![Eq](Eq.png)
 <br>
 <br>
-The first feature to model/start with is Feature A. Feature A is a cylinder of a driven diameter of 1.83 inches and chosen length of 4 inches.
+The first feature to model/start with is Feature A. Feature A is a cylinder of a driven diameter of 1.83 inches and chosen length of 5 inches.
 <br>
 <br>
 ![ftA](ftA.png)
@@ -58,7 +58,7 @@ The "filler" for the bracket is the feature that connects the bracket as one who
 ![fill2](fill2.png)
 <br>
 <br>
-A link to connect feature A to other parts had to be parametrically modeled as well. The chosen dimensions for the link could have been almost just anything, just as long as it didn't collide with the bracket above. I chose the height of the link to be 6 inches for that matter and the distance between the end of the part and the holes to be 1.83 inches. the base of the link was chosen as 2.25 inches, and the Ddriven dimension was the parts thickness, which was driven as 0.12 inches.The chamfers on the corners of the sketch were purely for aesthetic and consideration for if the corners of the link would collide with whatever it would attach to in addition to the bracket.
+A link to connect feature A to other parts had to be parametrically modeled as well. The chosen dimensions for the link could have been almost just anything, just as long as it didn't collide with the bracket above. I chose the height of the link to be 6 inches for that matter and the distance between the end of the part and the holes to be 1.83 inches. the base of the link was chosen as 2.25 inches, and the Ddriven dimension was the parts thickness, which was driven as 0.12 inches.The fillets on the corners of the sketch were purely for aesthetic and consideration for if the corners of the link would collide with whatever it would attach to in addition to the bracket.
 <br>
 <br>
 ![link1](link1.png)
@@ -76,12 +76,14 @@ A link to connect feature A to other parts had to be parametrically modeled as w
 ![lnkyes](lnkyes.png)
 
 ## Reflections
-
+The bending equation for the diameter of feature A drove the thickness of feature B. I expressed that value 1.83 inches with the variable "Dst" into the corresponding equation for the thickness/height of feature B (A5 clarifies the interpretation, from feature B's free body diagram).
+<br>
+<br>
 Compatibility came from the limits of both parts, not from a shared nominal. The bracket shaft, diameter of 1.8310–1.8280, and the link bore, a diameter of 1.8300–1.8316, both read 1.83 at nominal, but the .0010–.0036 clearance exists only because each part carries explicit limits checked against the other. At the title block's plus or minus .005, a bore could have measured 1.825, smaller than the shaft. The press-fit hole cannot absorb positional error, so the minimum clearance at the running-fit hole set the position tolerance at a diameter of 0.001. Datum A and B, the basic center distance, and the interface note tell a machinist which features mate and which are only blank.
 <br>
 <br>
 The pocket height 1.50 +.0016/−.0000 is supposed to be a mating surface. The T-beam flange slides in it, and the .0010–.0036 gap limits play. IT8 at this size is .0016 in, so it overrides the block. The length of feature B, 4.0 plus or minus .02, mates with nothing. I sized it with axial deflection with a safety, and ±.02 shifts that deflection by 0.5%. from Table 8, milling reaches IT10–11 (about .003 to .004 in), while IT7–8 on a through slot needs broaching, grinding, or wire EDM.
 <br>
 <br>
-Overall I may have spent at most 2 hours modeling on SolidWorks and their respective drawings. The most difficult part of this assignment was the drawings for the parts, where having to find the right fits and callouts took time to find an understand. I created the GitHub while working on the drawings, so whatever was wrong, the tolerances for the shaft diameter, I had to reupload the correct drawing PNG and SolidWorks drawing. Dimension and tolerancing communicates design intent in the way of how its supposed to be machined and how the part is going to function with other parts. Including the GitHub setup and the mistakes along the way, I estimate the total time I spent on this four hours. Out of all the assignments I've done so far, this was the most annoying.
+Overall I may have spent at most 2 hours modeling on SolidWorks and their respective drawings. The most difficult part of this assignment was the drawings for the parts, where having to find the right fits and callouts took time to find an understand. I created the GitHub while working on the drawings, so whatever was wrong, the tolerances for the shaft diameter, I had to reupload the correct drawing PNG and SolidWorks drawing. Dimension and tolerancing communicates design intent in the way of how its supposed to be machined and how the part is going to function with other parts. Including the GitHub setup and the mistakes along the way, I estimate the total time I spent on this to be six hours. Out of all the assignments I've done so far, this was the most annoying.
 
