@@ -60,6 +60,11 @@ The max amount of total elements is 63038, when shifted to the farthest right, g
 
 ### Design 2
 For the first redesign of the bracket, I added another Feature B (refer to A5) in middle of the shaft,2.5 inches, by adding a plane on the face of the shaft and then offsetting the plane to 2.5 inches in the reverse direction. To keep the height of the feature the same, I extruded both directions and parametrically modeled it for both directions to "htfb"/2, which is 0.63 inches. This way the stress concentration wont as a large now that there two, and that the link can still attach onto the shaft. With the added feature, the new weight of the bracket is 13.25 pounds as well.. A new FEA can be now be FEA'd for the bracket.
+![A7](D2add1.png)
+![A7](D2mass.png)
+
+
+
 <br>
 <br>
  
