@@ -49,7 +49,7 @@ For the final mesh, I bumped the scale near to fine, and got a total number of e
 ![A7](D1M4stress.png)
 ![A7](D1M4displacement.png)
 ![A7](D1M4safety.png)
-#### Mesh 5
+#### Mesh #5
 The max amount of total elements is 63038, when shifted to the farthest right, going from coarse to fine. the new values are a stress of 1096 psi, displacement of .002344, and safety factor of 3.64. The calculated convergence were .36% for stress, .25% for displacement, and 0.32% for safety factor. The bracket can now be redesigned, and the calculations for all the convergences were done on paper and below with the solidworks screenshots.
 <br>
 <br>
@@ -59,8 +59,14 @@ The max amount of total elements is 63038, when shifted to the farthest right, g
 ![A7](D1M5safety.png)
 
 ### Design 2
+For the first redesign of the bracket, I added another Feature B (refer to A5) in middle of the shaft,2.5 inches, by adding a plane on the face of the shaft and then offsetting the plane to 2.5 inches in the reverse direction. To keep the height of the feature the same, I extruded both directions and parametrically modeled it for both directions to "htfb"/2, which is 0.63 inches. This way the stress concentration wont as a large now that there two, and that the link can still attach onto the shaft. With the added feature, the new weight of the bracket is 13.25 pounds. A new FEA can be now be FEA'd.
+<br>
+<br>
+ 
+#### Mesh #1
+This time I made sure to make the initial mesh element count higher. The element count for mesh 1 was 8515. The corresponding max values were a max stress of 165.6 psi, displacement of .0001317 inches, and a safety factor of 240.9. No convergence is needed yet that these would be the initial values, and the proceeding mesh hold the final values in the equation.
 
-
+#### Mesh #2
 
 ## Decide
 
