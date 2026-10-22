@@ -54,7 +54,7 @@ For the final mesh, I bumped the scale near to fine, and got a total number of e
 ![A7](D1M4displacement.png)
 ![A7](D1M4safety.png)
 #### Mesh #5
-The max amount of total elements is 63038, when shifted to the farthest right, going from coarse to fine. the new values are a stress of 1096 psi on the face of feature B, displacement of .002344 at the end of the shaft, and safety factor of 3.64. The calculated convergence were .36% for stress, .25% for displacement, and 0.32% for safety factor. The bracket can now be redesigned, and the calculations for all the convergences were done on paper and below with the solidworks screenshots.
+The max amount of total elements is 63038, when shifted to the farthest right, going from coarse to fine. the new values are a stress of 1096 psi on the face of feature B, displacement of .002344 at the end of the shaft, and safety factor of 3.64. The calculated convergence were .36% for stress, .25% for displacement, and 0.32% for safety factor. The bracket can now be redesigned.
 <br>
 <br>
 ![A7](D1mesh5.png)
@@ -231,5 +231,8 @@ The second mesh created has 17726 total elements. the max stress felt is 201.5 p
 ![A7](L4M2def.png)
 ![A7](L4M2safety.png)
 
+## Convergence Calculations
+
 ## Reflection
+From this assignment, I learned how to properly analyze stress concentrations or behavior of parts in general and how redesigning the parts changes the behavior. My analysis wasn't consistent throughout the whole assignment, Where for the link I forgot to change the displacement measurement to inches (not that it affects the percent difference, but regardless). The sig figs for the safety factors seem very off as well, as every FEA gave me values in the hundreds or tens, which is a lot more than the required safety factor of 4. I chose to ignore that and keep with those values, as the percent difference may stay the same if it was smaller but still on the same scale. Some redesign ended up not fixing the concentrations, and now I know was can or cant affect the parameters as much. Hopefully a "more senior engineer" would approve of these designs. I worked on the FEA analysis and the GitHub at the same time, which speed up the process, and overall I've spent roughly six hours on the assignment.
 
