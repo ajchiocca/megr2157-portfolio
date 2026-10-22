@@ -195,14 +195,24 @@ The second mesh created has 41145 total elements. the max stress felt is 942.5 p
 ![A7](L2M2safety.png)
 ### Design 3
 For the second redesign, I extruded the links thickness to four times its original thickness "tink" of 0.12 inches to to 0.48 inches to try to alleviate the displacement which is currently the biggest problem for the link. the new mass is 0.87 pounds.
-
+![A7](L3add.png)
+![A7](L3mass.png)
 #### Mesh #1
 The first mesh created has 13504 total elements. The max stress felt is 235.5 psi on the sides of the bottom hole , max deflection is .01003 inches still below the bottom hole, and safety factor is 169.4.
+![A7](L3mesh1.png)
+![A7](L3M1stress.png)
+![A7](L3M1def.png)
+![A7](L3M1safety.png)
 
 #### Mesh 2
 The second mesh created has 17726 total elements. the max stress felt is 2863 psi on the sides of the bottom hole, max deflection is .01004 inches below the bottom hole, and safety factor is 13.93. The convergence for stress was .63%, percent for deflection was .078%, and the percent for the safety factor was .65%. The final redesign can now be done.
-
+![A7](L3mesh2.png)
+![A7](L3M1stress.png)
+![A7](L3M2def.png)
+![A7](L3M2safety.png)
 ### Design 4
 For the final redesign, I extended the bottom of the link by two inches in an attempt to reduce the amount of necking near the holes. the fillets on the bottom were removed as well. the new mass of the link is 1.20 pounds.
+![A7](L4add.png)
+![A7](L4mass.png)
 ## Communicate
 
