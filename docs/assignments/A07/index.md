@@ -216,9 +216,15 @@ For the final redesign, I extended the bottom of the link by two inches in an at
 ![A7](L4mass.png)
 #### Mesh 1
 The first mesh created has 8822 total elements. The max stress felt is 198,7 psi at the sides of the bottom hole, max deflection is .0009141 millimeters below the bottom hole, creeping down, and safety factor is 198.7.\
-
+![A7](L4mesh1.png)
+![A7](L4M1stress.png)
+![A7](L4M1def.png)
+![A7](L4M1safety.png)
 #### Mesh 2
 The second mesh created has 17726 total elements. the max stress felt is 201.5 psi on the sides of the bottom hole, max deflection is .0009136 millimeters below the bottom hole, creeping and safety factor is 197.9. The convergence for stress was 1.399%, percent for deflection was .054%, and the percent for the safety factor was .4%. The final redesign is now finished.
-
+![A7](L4mesh2.png)
+![A7](L4M1stress.png)
+![A7](L4M2def.png)
+![A7](L4M2safety.png)
 ## Reflection
 
