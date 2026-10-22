@@ -26,6 +26,8 @@ I then created the first mesh for the model, which has total elements of 2844. W
 
 #### Mesh #2
 To be able to test for convergence, the mesh had to be modified and have its stress, displacement, and safety factor compared to the previous mesh. I changed the mesh and increased the number of elements to 4760. The new values were a max stress of 8.129e2 psi, displacement of .002302 inches, and safety factor of 4.907. convergence is found by finding the percent difference between the values of the first mesh to the second mesh. calculating the convergence gives a percent difference of 7.99% for stress, 21.27% for displacement, and 12.54% for the safety factor. another mesh must be made to converge to 7% or lower. the mass of the design will remain unchanged until the first redesign.
+<br>
+<br>
 ![A7](D1mesh2.png)
 ![A7](D1M2stress.png)
 ![A7](D1M2def.png)
@@ -33,22 +35,29 @@ To be able to test for convergence, the mesh had to be modified and have its str
 
 #### Mesh #3
 The next mesh had a total elements of 14931. the corresponding values were a max stress felt of 914 psi, displacement of .002324 inches, and a safety factor of 4.364. The found convergence/percent differences for stress was calculated to be 11.7%, displacement convergence of 0.95%, and safety factor of 11.71%. Another mesh must be created to attempt to achieve convergence for all three.
+<br>
+<br>
 ![A7](D1mesh3.png)
 ![A7](D1M3stress.png)
 ![A7](D1M3def.png)
 ![A7](D1M3safety.png)
 #### Mesh #4
-For the final mesh, I bumped the scale near to fine, and got a total number of elements of 41333. The new values were a stress of 1092 psi, displacement of .002338 inches, and a safety factor of 3.652. the final convergence for values were a stress convergence of 17.74%, displacement convergence of 1.03%, and safety factor 17.76%. The amount of convergences is limited to three. Because stress and the safety factor hasnt converge to seven percent. another mesh must be created to the max amount of elements possible
+For the final mesh, I bumped the scale near to fine, and got a total number of elements of 41333. The new values were a stress of 1092 psi, displacement of .002338 inches, and a safety factor of 3.652. the final convergence for values were a stress convergence of 17.74%, displacement convergence of 1.03%, and safety factor 17.76%. The amount of convergences is limited to three. Because stress and the safety factor hasnt converge to seven percent. another mesh must be created to the max amount of elements possible.
+<br>
+<br>
 ![A7](D1mesh4.png)
 ![A7](D1M4stress.png)
 ![A7](D1M4displacement.png)
 ![A7](D1M4safety.png)
 #### Mesh 5
-The max amount of total elements is 63038, when shifted to the farthest right, going from coarse to fine. the new values are a stress of 1096 psi, displacement of .002344, and safety factor of 3.64. The calculated convergence were .36% for stress, .25% for displacement, and 0.32% for safety factor. The bracket can now be redesigned, and the calculations for all the convergences were done on paper and below.
+The max amount of total elements is 63038, when shifted to the farthest right, going from coarse to fine. the new values are a stress of 1096 psi, displacement of .002344, and safety factor of 3.64. The calculated convergence were .36% for stress, .25% for displacement, and 0.32% for safety factor. The bracket can now be redesigned, and the calculations for all the convergences were done on paper and below with the solidworks screenshots.
+<br>
+<br>
 ![A7](D1mesh5.png)
 ![A7](D1M5stress.png)
 ![A7](D1M5def.png)
 ![A7](D1M5safety.png)
+
 ### Design 2
 
 
