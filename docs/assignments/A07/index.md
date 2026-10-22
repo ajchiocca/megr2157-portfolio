@@ -127,7 +127,7 @@ For the final redesign, I added another feature B to the other end of the cranks
 <br>
 ![A7](D4add1.png)
 ![A7](D4add2.png)
-![A7](D4add4.png)
+![A7](D4add3.png)
 
 #### Mesh #1
 The total number of elements for mesh 1 is 16928. The max values were a stress of 35.42 psi at the edges between the straps and the shaft, deflection 1.043e-5 inches at the longitudinal center of the shaft, and a safety factor of 112.6.
