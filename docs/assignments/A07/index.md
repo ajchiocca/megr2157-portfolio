@@ -29,7 +29,7 @@ I then created the first mesh for the model, which has total elements of 2844. W
 ![A7](D1mass.png)
 
 #### Mesh #2
-To be able to test for convergence, the mesh had to be modified and have its stress, displacement, and safety factor compared to the previous mesh. I changed the mesh and increased the number of elements to 4760. The new values were a max stress of 8.129e2 psi, displacement of .002302 inches, and safety factor of 4.907. convergence is found by finding the percent difference between the values of the first mesh to the second mesh. calculating the convergence gives a percent difference of 7.99% for stress, 21.27% for displacement, and 12.54% for the safety factor. another mesh must be made to converge to 7% or lower. the mass of the design will remain unchanged until the first redesign.
+To be able to test for convergence, the mesh had to be modified and have its stress, displacement, and safety factor compared to the previous mesh. I changed the mesh and increased the number of elements to 4760. The new values were a max stress of 8.129e2 psi on the face of feature B, displacement of .002302 inches at the end of the shaft, and safety factor of 4.907. convergence is found by finding the percent difference between the values of the first mesh to the second mesh. calculating the convergence gives a percent difference of 7.99% for stress, 21.27% for displacement, and 12.54% for the safety factor. another mesh must be made to converge to 7% or lower. the mass of the design will remain unchanged until the first redesign.
 <br>
 <br>
 ![A7](D1mesh2.png)
@@ -38,7 +38,7 @@ To be able to test for convergence, the mesh had to be modified and have its str
 ![A7](D1M2safety.png)
 
 #### Mesh #3
-The next mesh had a total elements of 14931. the corresponding values were a max stress felt of 914 psi, displacement of .002324 inches, and a safety factor of 4.364. The found convergence/percent differences for stress was calculated to be 11.7%, displacement convergence of 0.95%, and safety factor of 11.71%. Another mesh must be created to attempt to achieve convergence for all three.
+The next mesh had a total elements of 14931. the corresponding values were a max stress felt of 914 psi on the face of feature B, displacement of .002324 inches at the end of the shaft, and a safety factor of 4.364. The found convergence/percent differences for stress was calculated to be 11.7%, displacement convergence of 0.95%, and safety factor of 11.71%. Another mesh must be created to attempt to achieve convergence for all three.
 <br>
 <br>
 ![A7](D1mesh3.png)
@@ -46,7 +46,7 @@ The next mesh had a total elements of 14931. the corresponding values were a max
 ![A7](D1M3def.png)
 ![A7](D1M3safety.png)
 #### Mesh #4
-For the final mesh, I bumped the scale near to fine, and got a total number of elements of 41333. The new values were a stress of 1092 psi, displacement of .002338 inches, and a safety factor of 3.652. the final convergence for values were a stress convergence of 17.74%, displacement convergence of 1.03%, and safety factor 17.76%. The amount of convergences is limited to three. Because stress and the safety factor hasnt converge to seven percent. another mesh must be created to the max amount of elements possible.
+For the final mesh, I bumped the scale near to fine, and got a total number of elements of 41333. The new values were a stress of 1092 psi on the face of feature B, displacement of .002338 inches at the end of the shaft, and a safety factor of 3.652. the final convergence for values were a stress convergence of 17.74%, displacement convergence of 1.03%, and safety factor 17.76%. The amount of convergences is limited to three. Because stress and the safety factor hasnt converge to seven percent. another mesh must be created to the max amount of elements possible.
 <br>
 <br>
 ![A7](D1mesh4.png)
@@ -54,7 +54,7 @@ For the final mesh, I bumped the scale near to fine, and got a total number of e
 ![A7](D1M4displacement.png)
 ![A7](D1M4safety.png)
 #### Mesh #5
-The max amount of total elements is 63038, when shifted to the farthest right, going from coarse to fine. the new values are a stress of 1096 psi, displacement of .002344, and safety factor of 3.64. The calculated convergence were .36% for stress, .25% for displacement, and 0.32% for safety factor. The bracket can now be redesigned, and the calculations for all the convergences were done on paper and below with the solidworks screenshots.
+The max amount of total elements is 63038, when shifted to the farthest right, going from coarse to fine. the new values are a stress of 1096 psi on the face of feature B, displacement of .002344 at the end of the shaft, and safety factor of 3.64. The calculated convergence were .36% for stress, .25% for displacement, and 0.32% for safety factor. The bracket can now be redesigned, and the calculations for all the convergences were done on paper and below with the solidworks screenshots.
 <br>
 <br>
 ![A7](D1mesh5.png)
@@ -73,7 +73,7 @@ For the first redesign of the bracket, I added another Feature B (refer to A5) i
 <br>
  
 #### Mesh #1
-This time I made sure to make the initial mesh element count higher. The element count for mesh 1 was 8515. The corresponding max values were a max stress of 165.6 psi, displacement of .0001317 inches, and a safety factor of 240.9. No convergence is needed yet that these would be the initial values, and the proceeding mesh hold the final values in the equation.
+This time I made sure to make the initial mesh element count higher. The element count for mesh 1 was 8515. The corresponding max values were a max stress of 165.6 psi on the added feature B, displacement of .0001317 inches at the end of the shaft, and a safety factor of 240.9. No convergence is needed yet that these would be the initial values, and the proceeding mesh hold the final values in the equation.
 <br>
 <br>
 ![A7](D2mesh1.png)
@@ -82,7 +82,7 @@ This time I made sure to make the initial mesh element count higher. The element
 ![A7](D2M1safety.png)
 
 #### Mesh #2
-The next mesh had a total element number of 24727. with those elements the new values were a max stress of 185.5 psi, max displacement of .0001327 inches, and a max safety factor of 215.1. Convergence can now be found; the covergence for stress was 11%, the percent difference for displacement was 0.75%, and the percent difference for factor of safety was 11.315%
+The next mesh had a total element number of 24727. with those elements the new values were a max stress of 185.5 psi on the added feature B, max displacement of .0001327 inches at the end of the shaft, and a max safety factor of 215.1. Convergence can now be found; the convergence for stress was 11%, the percent difference for displacement was 0.75%, and the percent difference for factor of safety was 11.315%
 <br>
 <br>
 ![A7](D2mesh2.png)
@@ -91,7 +91,7 @@ The next mesh had a total element number of 24727. with those elements the new v
 ![A7](D2M2safety.png)
 
 #### Mesh #3
-The following mesh I created had a total number of 30000 elements. I kept it fairly close to mesh #2 so that the difference between the two wouldn't be considerably large. The max stress was 190.6 psi, the max deflection was .0001328 inches, and the safety factor was 209.3. The convergence between the three were below 7%, with stress equated to 2.717%, deflection off .075%, and the safety factor off 2.733%. With all three parametrs meeting convergence, The bracket can be designed again.
+The following mesh I created had a total number of 30000 elements. I kept it fairly close to mesh #2 so that the difference between the two wouldn't be considerably large. The max stress was 190.6 psi on the added feature B, the max deflection was .0001328 inches at the end of the shaft , and the safety factor was 209.3. The convergence between the three were below 7%, with stress equated to 2.717%, deflection off .075%, and the safety factor off 2.733%. With all three parametrs meeting convergence, The bracket can be designed again.
 <br>
 <br>
 ![A7](D2mesh3.png)
@@ -105,7 +105,7 @@ For the second redesign of the bracket, I added chamfers at the top of the two F
 ![A7](D3mass.png)
 
 #### Mesh #1
-I created another mesh with the new design, and the total number of elements is 8732. The corresponding max values were a stress of 159.1 psi, a deflection of .0001275, and a safety factor of 250.7. No convergence needed for this mesh.
+I created another mesh with the new design, and the total number of elements is 8732. The corresponding max values were a stress of 159.1 psi on the added feature B all around , a deflection of .0001275 at the end of the shaft, and a safety factor of 250.7. No convergence needed for this mesh.
 ![A7](D3mesh1.png)
 ![A7](D3M1stress.png)
 ![A7](D3M1def.png)
@@ -113,7 +113,7 @@ I created another mesh with the new design, and the total number of elements is 
 
 
 #### Mesh #2
-The new total number of the subsequent mesh was 9634. The max stress was 169.9 psi, the max displacement was .0001274 inches, and a safety actor of 234.8. The convergence for stress was 6.56%, the displacement convergence was .075%, and the safety fCTOR convergence was 6.54%. The convergence is meet and the next redesign can be made.
+The new total number of the subsequent mesh was 9634. The max stress was 169.9 psi on the added feature B, the max displacement was .0001274 inches at the end of the shaft, and a safety actor of 234.8. The convergence for stress was 6.56%, the displacement convergence was .075%, and the safety fCTOR convergence was 6.54%. The convergence is meet and the next redesign can be made.
 <br>
 <br>
 ![A7](D3mesh2.png)
@@ -130,7 +130,7 @@ For the final redesign, I added another feature B to the other end of the cranks
 ![A7](D4add4.png)
 
 #### Mesh #1
-The total number of elements for mesh 1 is 16928. The max values were a stress of 35.42 psi, deflection 1.043e-5 inches, and a safety factor of 112.6.
+The total number of elements for mesh 1 is 16928. The max values were a stress of 35.42 psi at the edges between the straps and the shaft, deflection 1.043e-5 inches at the longitudinal center of the shaft, and a safety factor of 112.6.
 <br>
 <br>
 ![A7](D4mesh1.png)
@@ -139,7 +139,7 @@ The total number of elements for mesh 1 is 16928. The max values were a stress o
 ![A7](D4M1safety.png)
 
 #### Mesh #2
-The total number of elements for mesh 2 is 20446. The max values were a stress of 35.5 psi, deflection of 1.045e-5 inches, and a safety factor of 112.3. The convergence between the three parameters were .22% for stress, approximately 0% for deflection, as both the final and initial values were the same sig figs, they'd be different if there was more sig figs, and the safety factor was 0.26%. Three redesigns were made, thus the FEA on the bracket is complete.
+The total number of elements for mesh 2 is 20446. The max values were a stress of 35.5 psi at the edges between the straps and the shaft , deflection of 1.045e-5 inches at the longitudinal center of the shaft, and a safety factor of 112.3. The convergence between the three parameters were .22% for stress, approximately 0% for deflection, as both the final and initial values were the same sig figs, they'd be different if there was more sig figs, and the safety factor was 0.26%. Three redesigns were made, thus the FEA on the bracket is complete.
 <br>
 <br>
 ![A7](D4mesh2.png)
@@ -154,7 +154,7 @@ The link follows the same FEA setup process as the link. the fixtures are set on
 ### Design 1 (Original)
 
 #### Mesh #1
-The first mesh created has 10699 total elements. The max stress felt is 2870 psi, max deflection is .01003 inches, and safety factor is 10.39.
+The first mesh created has 10699 total elements. The max stress felt is 2870 psi on the circumference of the bottom hole, max deflection is .01003 inches at the hole, and safety factor is 10.39.
 <br>
 <br>
 ![A7](L1mesh1.png)
@@ -163,7 +163,7 @@ The first mesh created has 10699 total elements. The max stress felt is 2870 psi
 ![A7](L1M1safety.png)
 
 #### Mesh #2
-The second mesh created has 13573 total elements. the max stress felt is 2863 psi, max deflection is .01004 inches, and safety factor is 13.93. The convergence for stress was .24%, percent for deflection was .009%, and the percent for the safety factor was 29.11%
+The second mesh created has 13573 total elements. the max stress felt is 2863 psi on the circumference of the bottom hole, max deflection is .01004 inches on the bottom circle, and safety factor is 13.93. The convergence for stress was .24%, percent for deflection was .009%, and the percent for the safety factor was 29.11%
 <br>
 <br>
 ![A7](L1mesh2.png)
@@ -172,7 +172,7 @@ The second mesh created has 13573 total elements. the max stress felt is 2863 ps
 ![A7](L1M2safety.png)
 
 #### Mesh #3
-The third mesh created has 15831 total elements. the max stress felt is 2869 psi, max deflection is .01004 inches, and safety factor is 13.9. The convergence for stress was .2%, percent for deflection was approximately or extremely close to0 %, and the percent for the safety factor was .24%. The link can now be redesigned.
+The third mesh created has 15831 total elements. the max stress felt is 2869 psi on the circumference of the bottom hole, max deflection is .01004 inches on the bottom circle, and safety factor is 13.9. The convergence for stress was .2%, percent for deflection was approximately or extremely close to0 %, and the percent for the safety factor was .24%. The link can now be redesigned.
 <br>
 <br>
 ![A7](L1mesh3.png)
