@@ -144,18 +144,38 @@ The total number of elements for mesh 2 is 20446. The max values were a stress o
 ![A7](D4M2safety.png)
 
 ## FEA on link
-The link follows the same FEA setup process as the link. the fixtures are set on the upper hole, where it would attach to the bracket, and the applied force of 600 N is applied on the circumference of the other hole. The link is the same material as the bracket, 6061-T6 aluminum alloy. the max limiting deflection and factor of safety is the same as the bracket as well.
-
+The link follows the same FEA setup process as the link. the fixtures are set on the upper hole, where it would attach to the bracket, and the applied force of 600 N is applied on the circumference of the other hole. The link is the same material as the bracket, 6061-T6 aluminum alloy. the max limiting deflection and factor of safety is the same as the bracket as well. The mass of the current link is 0.10 pounds
+![A7](linkfix.png)
+![A7](L1mass.png)
 ### Design 1 (Original)
 
 #### Mesh 1
 The first mesh created has 10699 total elements. The max stress felt is 2870 psi, max deflection is .01003 inches, and safety factor is 10.39.
+<br>
+<br>
+![A7](L1mesh1.png)
+![A7](L1M1stress.png)
+![A7](L1M1def.png)
+![A7](L1M1safety.png)
 
 #### Mesh 2
 The second mesh created has 13573 total elements. the max stress felt is 2863 psi, max deflection is .01004 inches, and safety factor is 13.93. The convergence for stress was .24%, percent for deflection was .009%, and the percent for the safety factor was 29.11%
+<br>
+<br>
+![A7](L1mesh2.png)
+![A7](L1M2stress.png)
+![A7](L1M2def.png)
+![A7](L1M2safety.png)
 
 #### Mesh 3
 The third mesh created has 15831 total elements. the max stress felt is 2869 psi, max deflection is .01004 inches, and safety factor is 13.9. The convergence for stress was .2%, percent for deflection was approximately or extremely close to0 %, and the percent for the safety factor was .24%. The link can now be redesigned.
+<br>
+<br>
+![A7](L1mesh3.png)
+![A7](L1M3stress.png)
+![A7](L1M3def.png)
+![A7](L1M3safety.png)
+
 
 ### Design 2
 
