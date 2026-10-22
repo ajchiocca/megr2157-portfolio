@@ -12,7 +12,7 @@ The first step to setting up the FEA analysis is to ensure it reflects the appli
 The bracket and link are made of 6061-T6 aluminum alloy, and so the yield strength of the material is 39885.32 psi and a modulus of elasticity of 10007604 psi. The given maximum limiting deflection is .005 inches and instructed safety factor is four.
 ![A7](6061behavior.png)
 
-### Design 1
+### Design 1 (Original)
 
 #### Mesh #1
 I then created the first mesh for the model, which has total elements of 2844. With this the FEA can run and give the brackets behavior with values for stress, deflection, and safety factor. From the von mises curve, the chart shows the brackets minimum stress of 1.887e-10 psi and a maximum stress located at the strap connecting the shaft and bracket to be 7.504e2 psi. The deflection chart shows its concentrated the end of the shaft, with a maximum of 2.285e-3 inches. The factor of safety plot gives a large red bracket with a maximum of 5.315. The initial mass of the model is 12.52 pounds as well.
@@ -67,7 +67,10 @@ For the first redesign of the bracket, I added another Feature B (refer to A5) i
 This time I made sure to make the initial mesh element count higher. The element count for mesh 1 was 8515. The corresponding max values were a max stress of 165.6 psi, displacement of .0001317 inches, and a safety factor of 240.9. No convergence is needed yet that these would be the initial values, and the proceeding mesh hold the final values in the equation.
 
 #### Mesh #2
+The next mesh had a total element number of 24727. with those elements the new values were a max stress of 185.5 psi, max displacement of .0001327 inches, and a max safety factor of 215.1. Convergence can now be found; the covergence for stress was 11%, the percent difference for displacement was 0.75%, and the percent difference for factor of safety was 11.315%
 
+#### Mesh #3
+The following mesh I created had a total number of 30000 elements. I kept it fairly close to mesh #2 so that the difference between the two wouldnt be considerably large.
 ## Decide
 
 
