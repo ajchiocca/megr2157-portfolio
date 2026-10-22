@@ -6,7 +6,7 @@ The objective of this assignment was to do a finite element analysis on the brac
 ## FEA analysis for bracket
 The first step to setting up the FEA analysis is to ensure it reflects the applied load and fixtures from A5 and A6. An applied load downward of 600 to the shaft and fixtures where the T-beam would fit had to be added to be able to run the FEA, And so I did exactly that. 
 ![A7](fixtures.png)
-![A7](applied_load.png)
+![A7](appliedload.png)
 <br>
 <br>
 The bracket and link are made of 6061-T6 aluminum alloy, and so the yield strength of the material is 39885.32 psi and a modulus of elasticity of 10007604 psi. The given maximum limiting deflection is .005 inches and instructed safety factor is four.
