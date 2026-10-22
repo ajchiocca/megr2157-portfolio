@@ -149,7 +149,7 @@ The link follows the same FEA setup process as the link. the fixtures are set on
 ![A7](L1mass.png)
 ### Design 1 (Original)
 
-#### Mesh 1
+#### Mesh #1
 The first mesh created has 10699 total elements. The max stress felt is 2870 psi, max deflection is .01003 inches, and safety factor is 10.39.
 <br>
 <br>
@@ -158,7 +158,7 @@ The first mesh created has 10699 total elements. The max stress felt is 2870 psi
 ![A7](L1M1def.png)
 ![A7](L1M1safety.png)
 
-#### Mesh 2
+#### Mesh #2
 The second mesh created has 13573 total elements. the max stress felt is 2863 psi, max deflection is .01004 inches, and safety factor is 13.93. The convergence for stress was .24%, percent for deflection was .009%, and the percent for the safety factor was 29.11%
 <br>
 <br>
@@ -167,7 +167,7 @@ The second mesh created has 13573 total elements. the max stress felt is 2863 ps
 ![A7](L1M2def.png)
 ![A7](L1M2safety.png)
 
-#### Mesh 3
+#### Mesh #3
 The third mesh created has 15831 total elements. the max stress felt is 2869 psi, max deflection is .01004 inches, and safety factor is 13.9. The convergence for stress was .2%, percent for deflection was approximately or extremely close to0 %, and the percent for the safety factor was .24%. The link can now be redesigned.
 <br>
 <br>
@@ -180,22 +180,29 @@ The third mesh created has 15831 total elements. the max stress felt is 2869 psi
 For the first redesign I changed the length of the link from 2.25 inches to 4 inches. The deflection plot and von mises curves reveals necking between the bottom hole. Increasing the the length may reduce the deflection and stress concentration near the hole. The mass increased to 0.22 pounds
 ![A7](L2add.png)
 ![A7](L2mass.png)
-#### Mesh 1
+#### Mesh #1
 The first mesh created has 32976 total elements. The max stress felt is 940.9 psi at the bottom hole, max deflection is .005081 inches at the end of the link below the bottom hole, and safety factor is 42.39.
 ![A7](L2mesh1.png)
 ![A7](L2M1stress.png)
 ![A7](L2M1def.png)
 ![A7](L2M1safety.png)
 
-#### Mesh 2
+#### Mesh #2
 The second mesh created has 41145 total elements. the max stress felt is 942.5 psi at the bottom hole, max deflection is .005082 inches at the end of the link below the bottom hole, and safety factor is 42.32. The convergence for stress was .169%, percent for deflection was .019%, and the percent for the safety factor was .165%. The link can move onto the second redesign.
 ![A7](L2mesh2.png)
 ![A7](L2M1stress.png)
 ![A7](L2M2def.png)
 ![A7](L2M2safety.png)
 ### Design 3
+For the second redesign, I extruded the links thickness to four times its original thickness "tink" of 0.12 inches to to 0.48 inches to try to alleviate the displacement which is currently the biggest problem for the link. the new mass is 0.87 pounds.
+
+#### Mesh #1
+The first mesh created has 13504 total elements. The max stress felt is 235.5 psi on the sides of the bottom hole , max deflection is .01003 inches still below the bottom hole, and safety factor is 169.4.
+
+#### Mesh 2
+The second mesh created has 17726 total elements. the max stress felt is 2863 psi on the sides of the bottom hole, max deflection is .01004 inches below the bottom hole, and safety factor is 13.93. The convergence for stress was .63%, percent for deflection was .078%, and the percent for the safety factor was .65%. The final redesign can now be done.
 
 ### Design 4
-
+For the final redesign, I extended the bottom of the link by two inches in an attempt to reduce the amount of necking near the holes. the fillets on the bottom were removed as well. the new mass of the link is 1.20 pounds.
 ## Communicate
 
