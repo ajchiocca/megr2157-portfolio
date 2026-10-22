@@ -232,7 +232,11 @@ The second mesh created has 17726 total elements. the max stress felt is 201.5 p
 ![A7](L4M2safety.png)
 
 ## Convergence Calculations
-
+![A7](C1.png)
+![A7](C2.png)
+![A7](C3.png)
+![A7](C4.png)
+![A7](C5.png)
 ## Reflection
 From this assignment, I learned how to properly analyze stress concentrations or behavior of parts in general and how redesigning the parts changes the behavior. My analysis wasn't consistent throughout the whole assignment, Where for the link I forgot to change the displacement measurement to inches (not that it affects the percent difference, but regardless). The sig figs for the safety factors seem very off as well, as every FEA gave me values in the hundreds or tens, which is a lot more than the required safety factor of 4. I chose to ignore that and keep with those values, as the percent difference may stay the same if it was smaller but still on the same scale. Some redesign ended up not fixing the concentrations, and now I know was can or cant affect the parameters as much. Hopefully a "more senior engineer" would approve of these designs. I worked on the FEA analysis and the GitHub at the same time, which speed up the process, and overall I've spent roughly six hours on the assignment.
 
