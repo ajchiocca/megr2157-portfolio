@@ -176,14 +176,14 @@ The third mesh created has 15831 total elements. the max stress felt is 2869 psi
 ![A7](L1M3def.png)
 ![A7](L1M3safety.png)
 
-
 ### Design 2
+For the first redesign I changed the length of the link from 2.25 inches to 4 inches. The deflection plot and von mises curves reveals necking between the bottom hole. Increasing the the length may reduce the deflection and stress concentration near the hole.
 
+#### Mesh 1
+The first mesh created has 32976 total elements. The max stress felt is 940.9 psi, max deflection is .005081 inches, and safety factor is 42.39.
 
-
-
-### Design 2
-
+#### Mesh 2
+The second mesh created has 41145 total elements. the max stress felt is 942.5 psi, max deflection is .005082 inches, and safety factor is 42.32. The convergence for stress was .169%, percent for deflection was .019%, and the percent for the safety factor was .165%. The link can move onto the second redesign
 ### Design 3
 
 ### Design 4
