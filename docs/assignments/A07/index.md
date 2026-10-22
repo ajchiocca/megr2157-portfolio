@@ -97,13 +97,27 @@ The following mesh I created had a total number of 30000 elements. I kept it fai
 
 ### Design 3
 For the second redesign of the bracket, I added chamfers at the top of the two Feature B's that connect to the bracket, and the bottom surface of the bracket. I chamfered it do a distance of 0.3 inches and at an angle of 45 degrees. I chamfered these edges to keep the stress low at those spots and an attempt to alleviate the stress in the added Feature B. With the added chamfers, the new weight of the bracket is 13.24 pounds.
+![A7](D3chamfer.png)
+![A7](D3.png)
 
 #### Mesh #1
-I created another mesh with the new design, and the total number of elements is 8732. The corresponding max values were a stress of 159.1 psi, a deflection of .0001275, and a safety factor of 250.7. No convergence needed
+I created another mesh with the new design, and the total number of elements is 8732. The corresponding max values were a stress of 159.1 psi, a deflection of .0001275, and a safety factor of 250.7. No convergence needed for this mesh.
+![A7](D3mesh1.png)
+![A7](D3M1stress.png)
+![A7](D3M1def.png)
+![A7](D3M1safety.png)
 
 
 #### Mesh #2
 The new total number of the subsequent mesh was 9634. The max stress was 169.9 psi, the max displacement was .0001274 inches, and a safety actor of 234.8. The convergence for stress was 6.56%, the displacement convergence was .075%, and the safety fCTOR convergence was 6.54%. The convergence is meet and the next redesign can be made.
+<br>
+<br>
+![A7](D3mesh2.png)
+![A7](D3M2stress.png)
+![A7](D3M2def.png)
+![A7](D3M2safety.png)
+
+### Design 4
 
 ## Decide
 
