@@ -70,12 +70,30 @@ For the first redesign of the bracket, I added another Feature B (refer to A5) i
  
 #### Mesh #1
 This time I made sure to make the initial mesh element count higher. The element count for mesh 1 was 8515. The corresponding max values were a max stress of 165.6 psi, displacement of .0001317 inches, and a safety factor of 240.9. No convergence is needed yet that these would be the initial values, and the proceeding mesh hold the final values in the equation.
+<br>
+<br>
+![A7](D2mesh1.png)
+![A7](D2M1stress.png)
+![A7](D2M1def.png)
+![A7](D2M1safety.png)
 
 #### Mesh #2
 The next mesh had a total element number of 24727. with those elements the new values were a max stress of 185.5 psi, max displacement of .0001327 inches, and a max safety factor of 215.1. Convergence can now be found; the covergence for stress was 11%, the percent difference for displacement was 0.75%, and the percent difference for factor of safety was 11.315%
+<br>
+<br>
+![A7](D2mesh2.png)
+![A7](D2M2stress.png)
+![A7](D2M2def.png)
+![A7](D2M2safety.png)
 
 #### Mesh #3
 The following mesh I created had a total number of 30000 elements. I kept it fairly close to mesh #2 so that the difference between the two wouldn't be considerably large. The max stress was 190.6 psi, the max deflection was .0001328 inches, and the safety factor was 209.3. The convergence between the three were below 7%, with stress equated to 2.717%, deflection off .075%, and the safety factor off 2.733%. With all three parametrs meeting convergence, The bracket can be designed again.
+<br>
+<br>
+![A7](D2mesh3.png)
+![A7](D2M3stress.png)
+![A7](D2M3def.png)
+![A7](D2M3safety.png)
 ## Decide
 
 
