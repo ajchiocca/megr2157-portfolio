@@ -98,7 +98,7 @@ The following mesh I created had a total number of 30000 elements. I kept it fai
 ### Design 3
 For the second redesign of the bracket, I added chamfers at the top of the two Feature B's that connect to the bracket, and the bottom surface of the bracket. I chamfered it do a distance of 0.3 inches and at an angle of 45 degrees. I chamfered these edges to keep the stress low at those spots and an attempt to alleviate the stress in the added Feature B. With the added chamfers, the new weight of the bracket is 13.24 pounds.
 ![A7](D3chamfer.png)
-![A7](D3.png)
+![A7](D3mass.png)
 
 #### Mesh #1
 I created another mesh with the new design, and the total number of elements is 8732. The corresponding max values were a stress of 159.1 psi, a deflection of .0001275, and a safety factor of 250.7. No convergence needed for this mesh.
@@ -118,7 +118,13 @@ The new total number of the subsequent mesh was 9634. The max stress was 169.9 p
 ![A7](D3M2safety.png)
 
 ### Design 4
+For the final redesign, I added another feature B to the other end of the crankshaft to try to better alleviate the stress, as the other redesigns couldn't do that. I also added chamfers at the top of the bracket that go out one inch and 45 degrees. I added the same chamfer from the other straps to the newly added strap as well. The link will have to attach between the straps.
 
+#### Mesh #1
+The total number of elements for mesh 1 is 16928
+
+#### Mesh #2
+The total number of elements for mesh 2 is 20446
 ## Decide
 
 
