@@ -119,12 +119,29 @@ The new total number of the subsequent mesh was 9634. The max stress was 169.9 p
 
 ### Design 4
 For the final redesign, I added another feature B to the other end of the crankshaft to try to better alleviate the stress, as the other redesigns couldn't do that. I also added chamfers at the top of the bracket that go out one inch and 45 degrees. I added the same chamfer from the other straps to the newly added strap as well. The link will have to attach between the straps.
+<br>
+<br>
+![A7](D4add1.png)
+![A7](D4add2.png)
+![A7](D4add4.png)
 
 #### Mesh #1
 The total number of elements for mesh 1 is 16928. The max values were a stress of 35.42 psi, deflection 1.043e-5 inches, and a safety factor of 112.6.
+<br>
+<br>
+![A7](D4mesh1.png)
+![A7](D4M1stress.png)
+![A7](D4M1def.png)
+![A7](D4M1safety.png)
 
 #### Mesh #2
 The total number of elements for mesh 2 is 20446. The max values were a stress of 35.5 psi, deflection of 1.045e-5 inches, and a safety factor of 112.3. The convergence between the three parameters were .22% for stress, approximately 0% for deflection, as both the final and initial values were the same sig figs, they'd be different if there was more sig figs, and the safety factor was 0.26%. Three redesigns were made, thus the FEA on the bracket is complete.
+<br>
+<br>
+![A7](D4mesh2.png)
+![A7](D4M2stress.png)
+![A7](D4M2def.png)
+![A7](D4M2safety.png)
 
 ## FEA on link
 
