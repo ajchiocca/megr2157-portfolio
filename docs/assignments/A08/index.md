@@ -19,36 +19,10 @@
 
 ### Input Shaft (Power-Transmission)
 
-#### Knowns and Unknowns
-
-
-#### Free Body Diagram
-
-
-#### Algebraic Solution
-
-
-#### Numerical Solution
-
-
-#### Conclusion
-
 
 ### Output Shaft (Short Shaft)
 
-#### Knowns and Unknowns
 
-
-#### Free Body Diagram
-
-
-#### Algebraic Solution
-
-
-#### Numerical Solution
-
-
-#### Conclusion
 
 ## Journal Bearing Design
 <!-- 30% total. (10%) size/length, pressure, velocity, PV, material from the lecture table. (10%) thickness. (10%) McMaster-Carr selection with part names. -->
@@ -56,63 +30,24 @@ bearing lengtg , fit class and why
 
 ### Input Bearing – Pressure, Velocity, and PV
 
-#### Knowns and Unknowns
 
-
-#### Free Body Diagram
-
-
-### algbruh
-
-#### Numerical Solution
 
 
 ### Output Bearing – Pressure, Velocity, and PV
 
-#### Knowns and Unknowns
-
-
-#### Free Body Diagram
-
-
-#### Algebraic Solution
-
-
-#### Numerical Solution
 
 
 ### Bearing Material
-ues.
+
 
 ### Input Bearing – Thickness
 
-#### Knowns and Unknowns
-
-
-#### Free Body Diagram of Stresses
-
-
-#### Algebraic Solution
-TODO
-
-#### Numerical Solution
-
-
 ### Output Bearing – Thickness
 
-#### Knowns and Unknowns
 
 
-#### Free Body Diagram of Stresses
 
-
-#### Algebraic Solution
-
-
-#### Numerical Solution
-
-
-### McMaster-Carr Bearing Selection
+### McMaster-Carr Bearing 
 part names fo input and output bearings and how they match 
 
 ## Gearbox Housing Sketch
@@ -153,25 +88,6 @@ mates used, clearance check between the gears and the housing
 ## Drawings (MEGR 2157)
 <!-- 30%. Six multi-view drawings + one assembly. Third-angle projection, ASME Y14.5, tolerance block X.X ±.02 / X.XX ±.01 / X.XXX ±.005, at least two callouts with different tolerancing on critical features. Delete this section if drawings go on a separate page. -->
 
-### Input Shaft
-
-
-### Output Shaft
-
-
-### Housing Half 1
-
-
-### Housing Half 2
-
-
-### Input Bearing
-
-
-### Output Bearing
-
-
-### Assembly
 
 
 
