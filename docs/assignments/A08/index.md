@@ -23,14 +23,14 @@ The output shaft is a short shaft and has fixed values of a .25 inch diameter, 1
 
 ## Journal Bearing Design
 <!-- 30% total. (10%) size/length, pressure, velocity, PV, material from the lecture table. (10%) thickness. (10%) McMaster-Carr selection with part names. -->
-bearing lengtg , fit class and why
+The next part to be modeled are the input and output bearings. I assumed both of the lengths to be 1/4 inches and an RC5 fit for both. The tolerance for the input shaft was .0007 inches, and the tolerance for the output shaft was .0009 inches. Calculating pressure, velocity, and PV were used with their diameters plus their respective tolerance.
 
-### Input Bearing – Pressure, Velocity, and PV
-
-
+### Input Bearing
 
 
-### Output Bearing – Pressure, Velocity, and PV
+
+
+### Output Bearing
 
 
 
