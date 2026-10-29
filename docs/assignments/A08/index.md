@@ -94,7 +94,7 @@ For mating everything together, majority of the fits to align everything were co
 ### Output shaft
 
 ### Input bearing
-
+![A8](InpBDraw.png)
 ### Output bearing
 ![A8](OutBDraw.png)
 ### Gearbox
