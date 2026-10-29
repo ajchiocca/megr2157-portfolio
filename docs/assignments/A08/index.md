@@ -98,8 +98,8 @@ For mating everything together, majority of the fits to align everything were co
 ### Output bearing
 
 ### Gearbox
-
-###Gearbox cover
+![A8](GearBoxDraw.png)
+### Gearbox cover
 ![A8](GBCoverDraw.png)
 ### Assembly
 ![A8](GBassDRW.png)
