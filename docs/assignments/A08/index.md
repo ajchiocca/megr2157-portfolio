@@ -45,6 +45,10 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 [Download Gearbox drawinghere:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GearBoxDRW.SLDDRW).
 <br>
 [Download Assembly drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GBassemblyDRW.SLDDRW).
+<br>
+<br>
+[Download Zip file here (may or may not work):](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/MasterZipDoc.zip).
+The part drawings were off different versions of the actual CAD model, therefore it could be accessed with all the parts being present. The zip file is just in case the drawings are part of the grade; if that's the case, download the zip file.
 
 ## Shaft Design
 The first step to the assignment were creating the input and output shafts. From the machinery's handbook, pages 295-297, covering shafts, the correct equations can be found to determining all the necessary values to design the shaft. The work for both shafts are on this one image.
