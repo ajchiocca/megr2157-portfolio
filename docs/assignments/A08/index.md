@@ -14,10 +14,10 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 The first step to the assignment were creating the input and output shafts. From the machinery's handbook, pages 295-297, covering shafts, the correct equations can be found to determining all the necessary values to design the shaft.
 
 
-### Input Shaft (Power-Transmission)
+### Input Shaft 
 The input shaft is consider a power-transmission shaft, as its transmitting the power of course. Power-transmitting has its own equations, and with those I found the power and the shear stress. The given/fixed values of the input shaft were a diameter of .125 inches, 1 inch long, and a yield strength of 4000 psi from the book. The objective is to numerically solve for the shear stress to determine if its a reasonable answer. I calculated the shear stress felt on the shaft was 1220.094 psi, which is sufficient as its below the yield stress. Other values like the power (.0716hp) and diameter equations were also equated incase they had to be changed. In this case they don't.
 
-### Output Shaft (Short Shaft)
+### Output Shaft 
 The output shaft is a short shaft and has fixed values of a .25 inch diameter, 1 inch long, and 8500 psi from the book. The power and diameter equations change for short shafts, but the shear stress stays the same. The equated shear stress was 407.44 psi-its less than 8500 psi, so its a sufficient answer. The calculated horsepower as .4523 hp as well.
 
 
