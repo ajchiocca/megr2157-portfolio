@@ -146,5 +146,5 @@ For mating everything together, majority of the fits to align everything were co
 
 
 ## Lessons Learned
-
+This assignment has taught me how to assemble parts on solid works and more importantly, how I should manage my time better- majority of this assignment was done in one night. I initially thought the bearings were to be modeled, so the dimensions may or may not be what they're supposed to be considering the RC5 fit. I gave myself more work to do by adding the threads and trying to correctly call them out on the drawings as well. I started this assignment at 7PM and finished close to 4AM, which means I've spent about 8 hours on this assignment in total.
 
