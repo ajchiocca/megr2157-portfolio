@@ -89,18 +89,18 @@ For mating everything together, majority of the fits to align everything were co
 ![A8](AssemblyPic.png)
 ## Drawings (MEGR 2157)
 
-###Input thaft
+### Input thaft
 
-###Output shaft
+### Output shaft
 
-###Input bearing
+### Input bearing
 
-###Output bearing
+### Output bearing
 
-###Gearbox
+### Gearbox
 
 ###Gearbox cover
-
+![A8](GBCoverDraw.png)
 ### Assembly
 ![A8](GBassDRW.png)
 
