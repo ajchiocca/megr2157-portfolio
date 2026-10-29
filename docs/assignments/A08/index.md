@@ -39,39 +39,33 @@ For the output bearing, the calculated velocity was 71.994 inches*s, pressure 50
 I chose the bearing material to be dry graphite for both. It is known that its better for the gears to be dissimilar material, which initially I wanted one of the gears material to be phenolics as its one the list of materials in the weeks slides and is still above the shafts PV value. I used solid works to design the gearbox, which to my knowledge doesnt support phenolic material, as in its not a material I could just choose from the catalog. For simplicity, I made them both dry graphite. With a chosen material, the correct bearing can be found on McMaster as long as its the right shaft diameter and length. The McMaster part for the input bearing is Oil-Embedded 841 Bronze Sleeve Bearing for 1/8" Shaft Diameter and 7/32" Housing ID, 1/4" Long, 6391K612, and the McMaster part for the output bearing is Oil-Embedded 841 Bronze Sleeve Bearing for 1/4" Shaft Diameter and 5/16" Housing ID, 1/4" Long, 6391K126.
 
 ## Gearbox Housing
-
-
-
-fit type and reasoning
+The Gearbox is going to house the gear, pinion, two bearing, and the two shafts, hence the title "gearbox housing". My design for the gearbox was to have the two shafts through the same face of the shelled gearbox and the other end having thread pitches is four Black-Oxide Alloy Steel Socket Head Screw, US Origin, 1-64 Thread Size, 1/8" Long (90044A280) between the gearbox and a cover for the gearbox. I used screws as my fit for it would be easy to assemble and disassemble, as its just screws. The sketch may or may not better explain my design, but it will make most sense in the full SolidWorks assembly.
 
 ## CAD Design and Assembly
-<!-- 45%. Parametric critical features starting from known parameters; list McMaster downloads; rest of the model. Note units. -->
 
-### Parameters
-key parametric dimensions
+### Input Shaft
 
-### Shafts
+### Output Shaft
 
-#### Input Shaft
+### Input bearing 
 
+### Output bearing
 
-#### Output Shaft
+### Gear
 
+### Pinion
 
-### Housing
+### Screw
 
-#### Half 1
+### Gearbox
 
-#### Half 2
+### Gearbox cover
 
+### Full assembly (transparent gearbox cover
 
-### McMaster-Carr Components
-TODO: gear, pinion, and bearing part numbers.
 
 ### Assembly
 
-
-mates used, clearance check between the gears and the housing
 
 ## Drawings (MEGR 2157)
 <!-- 30%. Six multi-view drawings + one assembly. Third-angle projection, ASME Y14.5, tolerance block X.X ±.02 / X.XX ±.01 / X.XXX ±.005, at least two callouts with different tolerancing on critical features. Delete this section if drawings go on a separate page. -->
