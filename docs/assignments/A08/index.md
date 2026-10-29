@@ -30,6 +30,21 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 [Download Gearbox here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GearBox.SLDPRT).
 <br>
 [Download Assembly here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GBassembly.SLDASM).
+<br>
+<br>
+[Download Input shaft drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/InShaftDRW.SLDDRW).
+<br>
+[Download Output shaft drawinghere:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/OShaftDRW.SLDPRT).
+<br>
+[Download Input Bearing drawinghere:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/InpBDRW.SLDDRW).
+<br>
+[Download Output Bearing drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/OutBDRW.SLDDRW).
+<br>
+[Download Gearbox cover drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GBCoverDRW.SLDDRW).
+<br>
+[Download Gearbox drawinghere:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GearBoxDRW.SLDDRW).
+<br>
+[Download Assembly drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GBassemblyDRW.SLDDRW).
 
 ## Shaft Design
 The first step to the assignment were creating the input and output shafts. From the machinery's handbook, pages 295-297, covering shafts, the correct equations can be found to determining all the necessary values to design the shaft. The work for both shafts are on this one image.
