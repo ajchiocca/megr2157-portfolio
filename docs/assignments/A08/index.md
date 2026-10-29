@@ -34,7 +34,7 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 <br>
 [Download Input shaft drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/InShaftDRW.SLDDRW).
 <br>
-[Download Output shaft drawinghere:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/OShaftDRW.SLDPRT).
+[Download Output shaft drawinghere:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/OShaftDRW.SLDDRW).
 <br>
 [Download Input Bearing drawinghere:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/InpBDRW.SLDDRW).
 <br>
