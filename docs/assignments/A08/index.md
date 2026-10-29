@@ -92,7 +92,7 @@ For mating everything together, majority of the fits to align everything were co
 ### Input shaft
 ![A8](InShaftDraw.png)
 ### Output shaft
-
+![A8](OShaftDraw.png)
 ### Input bearing
 ![A8](InpBDraw.png)
 ### Output bearing
