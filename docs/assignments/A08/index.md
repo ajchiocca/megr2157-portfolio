@@ -1,11 +1,8 @@
 # A8 – Gears
 
 ## Objective
-<!-- Your own words. Assignment objectives: gearbox that can be assembled and disassembled; size input and output shafts for strength; design journal bearings; housing with proper clearance and fastening; parametric CAD. -
+The objective of this assignment was to createa gearbox that can be disassebmled. The input and output shaft and bearings, and the gearbox were to be calculated and designed parametrically with given gear and pinion files. Assumptions and other known values are listed:
 
-<!-- Missing CAD download link = -15%. Missing headers = -15%. Also submit a PDF through Canvas. -->
-
-## Given Information
 - Gear ratio: 24:9
 - Output gear: 1.25 in-lbf, 1100 rpm
 - Input shaft (pinion, power-transmission): Ø0.125 in, 1 in long
@@ -14,14 +11,14 @@
 - Gear train is ideal; moment of the radial force is ignored
 
 ## Shaft Design
-<!-- 15%. Each shaft: knowns/unknowns, FBD, algebraic model, numerical stress, sufficient or not (recommend a new diameter if not). Cite the Machinery's Handbook equations and pages. -->
+The first step to the assignment were creating the input and output shafts. From the machinery's handbook, pages 295-297, covering shafts, the correct equations can be found to determining all the necessary values to design the shaft.
 
 
 ### Input Shaft (Power-Transmission)
-
+The input shaft is consider a power-transmission shaft, as its transmitting the power of course. Power-transmitting has its own equations, and with those I found the power and the shear stress. The given/fixed values of the input shaft were a diameter of .125 inches, 1 inch long, and a yield strength of 4000 psi from the book. The objective is to numerically solve for the shear stress to determine if its a reasonable answer. I calculated the shear stress felt on the shaft was 1220.094 psi, which is sufficient as its below the yield stress. Other values like the power (.0716hp) and diameter equations were also equated incase they had to be changed. In this case they don't.
 
 ### Output Shaft (Short Shaft)
-
+The output shaft is a short shaft and has fixed values of a .25 inch diameter, 1 inch long, and 8500 psi from the book. The power and diameter equations change for short shafts, but the shear stress stays the same. The equated shear stress was 407.44 psi-its less than 8500 psi, so its a sufficient answer. The calculated horsepower as .4523 hp as well.
 
 
 ## Journal Bearing Design
