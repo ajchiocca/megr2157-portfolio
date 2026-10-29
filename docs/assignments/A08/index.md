@@ -11,8 +11,11 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 - Gear train is ideal; moment of the radial force is ignored
 
 ## CAD files
-
-
+[Download Input shaft here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/InputShaft.SLDPRT).
+<br>
+[Download Output shaft here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/OutputShaft.SLDPRT).
+<br>
+[Download Input bearing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/OutputShaft.SLDPRT)
 ## Shaft Design
 The first step to the assignment were creating the input and output shafts. From the machinery's handbook, pages 295-297, covering shafts, the correct equations can be found to determining all the necessary values to design the shaft. The work for both shafts are on this one image.
 ![A8](ShaftWork.png)
