@@ -15,7 +15,7 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 <br>
 [Download Output shaft here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/OutputShaft.SLDPRT).
 <br>
-[Download Input bearing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/6391K612_Oil-Embedded 841 Bronze Sleeve Bearing.SLDPRT)
+[Download Input bearing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/6391K612%Oil-Embedded%841%Bronze%Sleeve%Bearing.SLDPRT)
 ## Shaft Design
 The first step to the assignment were creating the input and output shafts. From the machinery's handbook, pages 295-297, covering shafts, the correct equations can be found to determining all the necessary values to design the shaft. The work for both shafts are on this one image.
 ![A8](ShaftWork.png)
