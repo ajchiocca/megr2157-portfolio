@@ -67,6 +67,7 @@ I'm not sure how to show all the dimensions for both bearings, so I have the par
 ### Gearbox
 For parametrically design the gearbox, I was unsure on how in depth it had to be, or what its supposed to be, so I inputted values that would be used to dimension the gearbox, but that may not be as parametric as it should be. The only equation based value was the distance between the gear and pinion, which is the sum of their pitch diameter over 2, which yields .6875 inches. I hope that images of the holes, dimensions, and threads in the images explain themselves so I don't have to. The threads were created to work for the screws I used (1-64).
 ![A8](GBpara.png)
+![A8](GBmainDim.png)
 ![A8](GBholes.png)
 ![A8](GBthreads.png)
 
