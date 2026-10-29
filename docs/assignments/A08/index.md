@@ -23,7 +23,7 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 <br>
 [Download Pinion here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/Pinion.SLDPRT).
 <br>
-[Download Screw here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/Pinion.SLDPRT).
+[Download Screw here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/Screws.SLDPRT).
 <br>
 [Download Gearbox cover here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GBCover.SLDPRT).
 <br>
