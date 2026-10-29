@@ -21,34 +21,25 @@ The input shaft is consider a power-transmission shaft, as its transmitting the 
 The output shaft is a short shaft and has fixed values of a .25 inch diameter, 1 inch long, and 8500 psi from the book. The power and diameter equations change for short shafts, but the shear stress stays the same. The equated shear stress was 407.44 psi-its less than 8500 psi, so its a sufficient answer. The calculated horsepower as .4523 hp as well.
 
 
-## Journal Bearing Design
+## Journal Bearings
 <!-- 30% total. (10%) size/length, pressure, velocity, PV, material from the lecture table. (10%) thickness. (10%) McMaster-Carr selection with part names. -->
-The next part to be modeled are the input and output bearings. I assumed both of the lengths to be 1/4 inches and an RC5 fit for both. The tolerance for the input shaft was .0007 inches, and the tolerance for the output shaft was .0009 inches. Calculating pressure, velocity, and PV were used with their diameters plus their respective tolerance.
+The next part to be modeled are the input and output bearings. I assumed both of the lengths to be 1/4 inches and an RC5 fit for both. The tolerance for the input shaft was .0007 inches, and the tolerance for the output shaft was .0009 inches. Calculating pressure, velocity, and PV were used with their diameters plus their respective tolerance. I added the thickness of the bearing to the rest of the calculations additionally.
 
 ### Input Bearing
-
+For the input bearing, the calculated velocity was 96.53 inches*s, pressure 75.99 psi, and PV to be 7335.604. Calculations for the values inside V and P, the radial force and cross sectional area of the shaft were calculated as well. The determined thickness of the input bearing was .1974 inches
 
 
 
 ### Output Bearing
+For the output bearing, the calculated velocity was 71.994 inches*s, pressure 50.929 psi, and PV to be 3666.5824. Calculations for the values inside V and P, the radial force and cross sectional area of the shaft were again calculated as well. The determined thickness of the input bearing was .3927 inches
 
 
 
-### Bearing Material
+### Bearing Material.
+I chose the bearing material to be dry graphite for both. It is known that its better for the gears to be dissimilar material, which initially I wanted one of the gears material to be phenolics as its one the list of materials in the weeks slides and is still above the shafts PV value. I used solid works to design the gearbox, which to my knowledge doesnt support phenolic material, as in its not a material I could just choose from the catalog. For simplicity, I made them both dry graphite. With a chosen material, the correct bearing can be found on McMaster as long as its the right shaft diameter and length. The McMaster part for the input bearing is Oil-Embedded 841 Bronze Sleeve Bearing for 1/8" Shaft Diameter and 7/32" Housing ID, 1/4" Long, 6391K612, and the McMaster part for the output bearing is Oil-Embedded 841 Bronze Sleeve Bearing for 1/4" Shaft Diameter and 5/16" Housing ID, 1/4" Long, 6391K126.
 
+## Gearbox Housing
 
-### Input Bearing – Thickness
-
-### Output Bearing – Thickness
-
-
-
-
-### McMaster-Carr Bearing 
-part names fo input and output bearings and how they match 
-
-## Gearbox Housing Sketch
-<!-- 5%. Two-component housing; state how the halves fit together (snap fit, nuts and bolts, etc.) and why. -->
 
 
 fit type and reasoning
