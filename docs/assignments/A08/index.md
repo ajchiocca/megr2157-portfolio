@@ -48,9 +48,10 @@ The Gearbox is going to house the gear, pinion, two bearing, and the two shafts,
 ## CAD Design and Assembly
 
 ### Input Shaft
+![A8](InpshaftDim.png)
 
 ### Output Shaft
-
+![A8](OutshaftDim.png)
 ### Input bearing 
 I'm not sure how to show all the dimensions for both bearings, so I have the parametric equations with the bearings for both as well.
 <br>
