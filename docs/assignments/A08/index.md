@@ -89,8 +89,8 @@ For mating everything together, majority of the fits to align everything were co
 ![A8](AssemblyPic.png)
 ## Drawings (MEGR 2157)
 
-### Input thaft
-
+### Input shaft
+![A8](InShaftDraw.png)
 ### Output shaft
 
 ### Input bearing
