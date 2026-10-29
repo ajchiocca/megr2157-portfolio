@@ -29,7 +29,7 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 <br>
 [Download Gearbox here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GearBox.SLDPRT).
 <br>
-[Download Assembly here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GBassembly.SLDASM).
+[Download Assembly here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/FixedGearASS.SLDASM).
 <br>
 <br>
 [Download Input shaft drawing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/InShaftDRW.SLDDRW).
