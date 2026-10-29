@@ -58,14 +58,11 @@ The Gearbox is going to house the gear, pinion, two bearing, and the two shafts,
 ### Screw
 
 ### Gearbox
-
+For parametrically design the gearbox, I was unsure on how in depth it had to be, or what its supposed to be, so I inputted values that would be used to dimension the gearbox, but that may not be as parametric as it should be. The only equation based value was the distance between the gear and pinion, which is the sum of their pitch diameter over 2, which yields .6875 inches.
 ### Gearbox cover
 
-### Full assembly (transparent gearbox cover
-
-
-### Assembly
-
+### Full assembly (transparent gearbox cover)
+For mating everything together, majority of the fits to align everything were concentric mates. I used coincident mates to keep the bearings and gear/pinion together, and used parallel mates to make the gearbox cover parallel with the gearbox.
 
 ## Drawings (MEGR 2157)
 <!-- 30%. Six multi-view drawings + one assembly. Third-angle projection, ASME Y14.5, tolerance block X.X ±.02 / X.XX ±.01 / X.XXX ±.005, at least two callouts with different tolerancing on critical features. Delete this section if drawings go on a separate page. -->
