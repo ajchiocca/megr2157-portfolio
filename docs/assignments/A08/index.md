@@ -18,6 +18,18 @@ The objective of this assignment was to createa gearbox that can be disassebmled
 [Download Input Bearing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/InputBear.SLDPRT).
 <br>
 [Download Output Bearing here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/OutputBear.SLDPRT).
+<br>
+[Download Gear here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/Gear.SLDPRT).
+<br>
+[Download Pinion here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/Pinion.SLDPRT).
+<br>
+[Download Screw here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/Pinion.SLDPRT).
+<br>
+[Download Gearbox cover here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GBCover.SLDPRT).
+<br>
+[Download Gearbox here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GearBox.SLDPRT).
+<br>
+[Download Assembly here:](https://github.com/ajchiocca/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A08/GBassembly.SLDPRT).
 
 ## Shaft Design
 The first step to the assignment were creating the input and output shafts. From the machinery's handbook, pages 295-297, covering shafts, the correct equations can be found to determining all the necessary values to design the shaft. The work for both shafts are on this one image.
