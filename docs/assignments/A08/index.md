@@ -88,6 +88,22 @@ For mating everything together, majority of the fits to align everything were co
 <br>
 ![A8](AssemblyPic.png)
 ## Drawings (MEGR 2157)
+
+###Input thaft
+
+###Output shaft
+
+###Input bearing
+
+###Output bearing
+
+###Gearbox
+
+###Gearbox cover
+
+### Assembly
+![A8](GBassDRW.png)
+
 <!-- 30%. Six multi-view drawings + one assembly. Third-angle projection, ASME Y14.5, tolerance block X.X ±.02 / X.XX ±.01 / X.XXX ±.005, at least two callouts with different tolerancing on critical features. Delete this section if drawings go on a separate page. -->
 
 
