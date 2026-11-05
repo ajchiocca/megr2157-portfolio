@@ -5,7 +5,7 @@ The objective of this assignment is to design a pulley system to transfer power 
 <br>
 <br>
 ![A9](A9FBD.png)
-## Belt design
+### Belt design
 When the belt is no longer stationary, the tension on the tight and loose side of the belt arent equal to eachother. Using statics and the necessary equations, the force on both sides can be found. I labeled the tight end to be T2 and the loose end T1 initially, but knowing that the tight end of pulley should have more force than the loose end, The values should be switched. The tension on the tight end was 8.27897 lbf, and the tension on the loose end was 1.721 lbf.
 <br>
 <br>
@@ -15,19 +15,19 @@ The diameter and the circumference of the belt must be found as well. The diamet
 ![A9](BBelt.png)
 ![A9](McBelt.png)
 
-## Shaft design
+### Shaft design
 To find the diameter of the shaft, the torsion can be rearranged to solve for the diameter. The shaft is made from 1060 hardened steel that has a yield strength of 89.9 ksi. The calculated diameter of the shaft was 1.588 inches, and with an RC5 class fit, the tolerance on the hole is +1.6 thousandths of an inch for the hole and -2.0 or -3.0 thousandths of an inch for the shaft.
 <br>
 <br>
  ![A9](Shaft.png)
 
-## Journal bearing design
+### Journal bearing design
 The PV rating must be found to determine what material it should be. the diameter of the shaft in the equations used the diameter plus the tolerance of the hole, .1875+.0016. The calculated pressure was 16.832 psi and the surface velocity was the 2000 rpm converted to feet per minute, 99.01 ft/min. The PV limit for the journal bearing is 1666.66, and with an rotation speed of 99.01 ft/min, all materials excluding Virgin Teflon are reasonable to use in the list of sintered metal and nonmetallic bearing in the machinery's handbook. In this case, I chose porous bronze as the journal bearings material for its reliability and cheap costs compared to other materials.
 <br>
 <br>
 ![A9](JJB.png)
 
-## Frame design
+### Frame design
 When designing the frame, I took inspiration from pulley systems that utilize hooks on the long ends of the shafts. the frame should be longer than the total distance of the system, 9 inches, and strong enough to withhold the weight and sway the pulley might feel if its not secure enough, which may be counteracted by what it would be attached to with the hooks. The shaft should connect to the to the frame, and the height of the frame isn't a large concern-only that the hooks cross sectional area connected to the side of the frame is strong to the resists the shear force; that can be solved with more bolt connections. The drawing I created isn't the most visually descriptive, but it gets the basic outline of the design and what it should look like. 
 <br>
 <br>
