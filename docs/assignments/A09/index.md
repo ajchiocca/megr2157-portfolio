@@ -1,21 +1,23 @@
 # A9 – Pulleys
 
 ## Objective
-
+The objective of this assignment is to design a pulley system to transfer power between two parallel axes. the requirement I've chosen for the assignment were a center distance between the two pulleys of 5 inches, a pulley diameter of 3 inches, rotational speed of 2000 rpm, belt tension of 5 lbf under stationary conditions, the pulley to be made from mild steel with a friction coefficient of 0.5, and a minimum safety factor of 3/\.
 
 ## Belt design
-
+When the belt is no longer stationary, the tension on the tight and loose side of the belt arent equal to eachother. Using statics and the necessary equations, the force on both sides can be found. I labeled the tight end to be T2 and the loose end T1 initially, but knowing that the tight end of pulley should have more force than the loose end, The values should be switched. The tension on the tight end was 8.27897 lbf, and the tension on the loose end was 1.721 lbf.
+<br>
+<br>
+The diameter and the circumference of the belt must be found as well. The diameter of the belt can be found by rearranging the stress formula to solve for the diameter and considering the yield stress of the belts material, polyurethane rubber, 471 psi, and all those values gave an estimated diameter of .2013 inches, but I rounded down to 3/16 of an inch to be able to choose a proper belt. The circumference of the belt is 2L + pi times the diameter of the pulley. The calculated circumference of the belt was 21.42477 inches. With the diameter and outer circumference, A proper belt from McMaster is to be chosen, with a 0.1875 inch diameter and a circumference at least 21.4 inches, the correct belt is polyethurane rubber 3044K605, with a required outer circumference of 12.25 inches to 24 inches. from those, the closest outer circumference avaible is 21.5 inches.
 
 ## Shaft design
-
+To find the diameter of the shaft, the torsion can be rearranged to solve for the diameter. The shaft is made from 1060 hardened steel that has a yield strength of 89.9 ksi. The calculated diameter of the shaft was 1.588 inches, and with an RC5 class fit, the tolerance on the hole is +1.6 thousandths of an inch for the hole and -2.0 or -3.0 thousandths of an inch for the shaft.
 
 ## Journal bearing design
-
+The PV rating must be found to determine what material it should be. the diameter of the shaft in the equations used the diameter plus the tolerance of the hole, .1875+.0016. The calculated pressure was 16.832 psi and the surface velocity was the 2000 rpm converted to feet per minute, 99.01 ft/min. The PV limit for the journal bearing is 1666.66, and with an rotation speed of 99.01 ft/min, all materials excluding Virgin Teflon are reasonable to use in the list of sintered metal and nonmetallic bearing in the machinery's handbook. In this case, I chose porous bronze as the journal bearings material for its reliability and cheap costs compared to other materials.
 
 
 ## Frame design
-
-
-
+When designing the frame, I took inspiration from pulley systems that utilize hooks on the long ends of the shafts. the frame should be longer than the total distance of the system, 9 inches, and strong enough to withhold the weight and sway the pulley might feel if its not secure enough, which may be counteracted by what it would be attached to with the hooks. The shaft should connect to the to the frame, and the height of the frame isn't a large concern-only that the hooks cross sectional area connected to the side of the frame is strong to the resists the shear force; that can be solved with more bolt connections. The drawing I created isn't the most visually descriptive, but it gets the basic outline of the design and what it should look like. 
 
 ## Lessons learned
+In this assignment I have learned how values/parameters from one component cross over to the other in a system and proper usage for torsion, as its a pulley system. I also learned that one moving, the tension on the belts are no longer equal to each other. One thing I may have done incorrectly was the PV calculations for the journal bearing. Its my assumption that the PV rating and pressure should be greater than values I've gotten, as a more restricted choice of materials seems more common in engineering. An incorrect formula or value would be the result of the error, if it is wrong, im not sure.
