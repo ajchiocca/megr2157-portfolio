@@ -3,11 +3,19 @@
 ## Objective
 
 
-## Analyze
+## Belt design
 
 
-## Decide
+## Shaft design
 
 
-## Communicate
+## Journal bearing design
 
+
+
+## Frame design
+
+
+
+
+## Lessons learned
