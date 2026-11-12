@@ -21,7 +21,7 @@
 Rick Bhattacharya · Antonio Chiocca · Patrick Klauser<br>
 MEGR 2157 · Total time spent: **10 hours**
 
-<div class="a10-actions"><a href="files/A10-team-report.pdf">Submission PDF</a> · <a href="files/tensile-tester.f3z">Tester assembly</a> · <a href="files/crosshead.f3d">Crosshead CAD</a></div>
+<div class="a10-actions"><a href="A10-team-report.pdf">Submission PDF</a> · <a href="tensile-tester.f3z">Tester assembly</a> · <a href="crosshead.f3d">Crosshead CAD</a></div>
 
 ## Objective
 
@@ -29,7 +29,7 @@ We developed the mechanical layout of a benchtop tensile tester around two ident
 
 The assembly brings the frame, screws, nuts, flanges, and crosshead together. Our analysis focuses on that load-carrying structure. The CAD shown here is a mechanical concept; the grip connection, screw end supports, and synchronized mechanical input remain separate assembly details.
 
-<figure class="a10-figure cad" id="a10-figure-1"><img src="images/assembly.webp" alt="Tester assembly modeled by Rick Bhattacharya. The two screws and nut/flange assemblies position the moving crosshead inside the T-slot frame." loading="lazy"><figcaption><strong>Figure 1.</strong> Tester assembly modeled by Rick Bhattacharya. The two screws and nut/flange assemblies position the moving crosshead inside the T-slot frame. <a href="images/assembly.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
+<figure class="a10-figure cad" id="a10-figure-1"><img src="assembly.webp" alt="Tester assembly modeled by Rick Bhattacharya. The two screws and nut/flange assemblies position the moving crosshead inside the T-slot frame." loading="lazy"><figcaption><strong>Figure 1.</strong> Tester assembly modeled by Rick Bhattacharya. The two screws and nut/flange assemblies position the moving crosshead inside the T-slot frame. <a href="assembly.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
 
 ## Team contributions
 
@@ -83,7 +83,7 @@ d<sub>r,min</sub> = √[4(4)(1,000)/(π × 370)] = <strong>3.710 mm = 0.1461 in<
 
 The root diameter is the metal remaining below the threads. We kept it separate from the selected 1/4-in outside diameter. This calculation checks axial stress; screw torque, local thread stresses, and compression buckling depend on the final support arrangement. The 370-MPa yield value represents cold-finished 1018 reference data, rather than a certified property of every 1018 screw. [Online Metals: 1018 properties](https://www.onlinemetals.com/en/product-guide/alloy/1018).
 
-<figure class="a10-figure handwork" id="a10-figure-2"><img src="images/patrick-diameter.webp" alt="Patrick Klauser: design constraints, axial screw sizing, FBD, and minimum root diameter." loading="lazy"><figcaption><strong>Figure 2.</strong> Patrick Klauser: design constraints, axial screw sizing, FBD, and minimum root diameter. <a href="images/patrick-diameter.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
+<figure class="a10-figure handwork" id="a10-figure-2"><img src="patrick-diameter.webp" alt="Patrick Klauser: design constraints, axial screw sizing, FBD, and minimum root diameter." loading="lazy"><figcaption><strong>Figure 2.</strong> Patrick Klauser: design constraints, axial screw sizing, FBD, and minimum root diameter. <a href="patrick-diameter.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
 
 ### Rotational speed range
 
@@ -116,13 +116,13 @@ T = <strong>2.755 N·m per screw</strong>; T<sub>pair,1:1</sub> = <strong>5.511 
 
 Our first torque worksheets used μ = 0.80 and a square-thread approximation. We retained that calculation as part of the development record, then used the Acme flank angle and the basic mean diameter in the comparison above. The 0.15 value is a preliminary friction assumption; the 0.80 case shows the effect of the much higher worksheet assumption. Neither coefficient is a measured value for our purchased screw and bronze nut. Bearing friction, crosshead weight, starting friction, and transmission losses add to the required input torque. [Thread angle and friction reference](https://help.solidworks.com/2022/english/solidworks/cworks/r_Friction_Factor_Coefficient.htm).
 
-<figure class="a10-figure handwork" id="a10-figure-3"><img src="images/patrick-speed.webp" alt="Patrick Klauser: screw speed and the first torque calculation. The typed analysis distinguishes rpm from rad/s and states the friction assumptions." loading="lazy"><figcaption><strong>Figure 3.</strong> Patrick Klauser: screw speed and the first torque calculation. The typed analysis distinguishes rpm from rad/s and states the friction assumptions. <a href="images/patrick-speed.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
+<figure class="a10-figure handwork" id="a10-figure-3"><img src="patrick-speed.webp" alt="Patrick Klauser: screw speed and the first torque calculation. The typed analysis distinguishes rpm from rad/s and states the friction assumptions." loading="lazy"><figcaption><strong>Figure 3.</strong> Patrick Klauser: screw speed and the first torque calculation. The typed analysis distinguishes rpm from rad/s and states the friction assumptions. <a href="patrick-speed.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
 
 ## Nut and flange analysis — Antonio Chiocca
 
 We selected the bronze, externally threaded 95072A881 nut and its 95082A641 flange. The nut has a right-hand 1/4″-16 internal Acme thread. Its external 9/16″-18 thread connects to the flange. The flange then transfers the nut reaction into the crosshead through its mounting bolts. The external mounting thread and the internal lead-screw thread perform different jobs.
 
-<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-4"><img src="images/nut.webp" alt="Imported externally threaded bronze nut, McMaster 95072A881." loading="lazy"><figcaption><strong>Figure 4.</strong> Imported externally threaded bronze nut, McMaster 95072A881. <a href="images/nut.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-5"><img src="images/flange.webp" alt="Imported nut mounting flange, McMaster 95082A641." loading="lazy"><figcaption><strong>Figure 5.</strong> Imported nut mounting flange, McMaster 95082A641. <a href="images/flange.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
+<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-4"><img src="nut.webp" alt="Imported externally threaded bronze nut, McMaster 95072A881." loading="lazy"><figcaption><strong>Figure 4.</strong> Imported externally threaded bronze nut, McMaster 95072A881. <a href="nut.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-5"><img src="flange.webp" alt="Imported nut mounting flange, McMaster 95082A641." loading="lazy"><figcaption><strong>Figure 5.</strong> Imported nut mounting flange, McMaster 95082A641. <a href="flange.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
 
 ### Internal thread bending
 
@@ -140,7 +140,7 @@ Required S<sub>y,nut</sub> ≥ nσ<sub>b</sub> = 4(7.111) = <strong>28.45 ksi</s
 
 For a reference C67300 bronze yield strength of 30 ksi, this model gives n = 30/7.111 = **4.22**. Wieland Concast lists 30-ksi minimum yield for an extruded-and-drawn C67300 condition. That is the material requirement used for this check, not a strength certification for the McMaster nut. Actual engagement and uneven load distribution between threads affect the result. [C67300 material data](https://www.concast.com/files/C67300.pdf).
 
-<figure class="a10-figure handwork" id="a10-figure-6"><img src="images/aj-nut-crosshead.webp" alt="Antonio Chiocca: nut-thread bending and crosshead sizing, including the original support sketches." loading="lazy"><figcaption><strong>Figure 6.</strong> Antonio Chiocca: nut-thread bending and crosshead sizing, including the original support sketches. <a href="images/aj-nut-crosshead.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
+<figure class="a10-figure handwork" id="a10-figure-6"><img src="aj-nut-crosshead.webp" alt="Antonio Chiocca: nut-thread bending and crosshead sizing, including the original support sketches." loading="lazy"><figcaption><strong>Figure 6.</strong> Antonio Chiocca: nut-thread bending and crosshead sizing, including the original support sketches. <a href="aj-nut-crosshead.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
 
 ## Crosshead beam analysis — Antonio Chiocca
 
@@ -180,7 +180,7 @@ Fully fixed ends: δ<sub>max</sub> = WL³/(192EI)<br>
 
 At the drawing thickness, the simple-support result exceeds 0.100 mm while the fully fixed result is below it. The recorded FEA displacements are smaller still. This difference makes the load application area and rotational restraint at the mounting holes important to the interpretation; the beam check and the FEA should not be treated as identical support models. The earlier worksheet used a 384EI denominator and a longer sizing span. We replaced that expression with the center-load formulas above for the 6-in screw-center span.
 
-<figure class="a10-figure handwork" id="a10-figure-7"><img src="images/aj-screw.webp" alt="Antonio Chiocca: screw-load FBD, axial sizing, rotational speed, and torque working." loading="lazy"><figcaption><strong>Figure 7.</strong> Antonio Chiocca: screw-load FBD, axial sizing, rotational speed, and torque working. <a href="images/aj-screw.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
+<figure class="a10-figure handwork" id="a10-figure-7"><img src="aj-screw.webp" alt="Antonio Chiocca: screw-load FBD, axial sizing, rotational speed, and torque working." loading="lazy"><figcaption><strong>Figure 7.</strong> Antonio Chiocca: screw-load FBD, axial sizing, rotational speed, and torque working. <a href="aj-screw.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
 
 ## CAD assembly and drawing — Rick Bhattacharya
 
@@ -195,17 +195,17 @@ We imported the catalog lead screws, nuts, flanges, and T-slot framing, then mod
 | Uprights | [47065T21](https://www.mcmaster.com/47065T21/), imported 2-ft framing |
 | Crosshead | Custom 6061 aluminum component, available as a Fusion archive below |
 
-<figure class="a10-figure cad" id="a10-figure-8"><img src="images/interface.webp" alt="Underside of the crosshead showing the two nut/flange interfaces and screw-clearance locations." loading="lazy"><figcaption><strong>Figure 8.</strong> Underside of the crosshead showing the two nut/flange interfaces and screw-clearance locations. <a href="images/interface.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
+<figure class="a10-figure cad" id="a10-figure-8"><img src="interface.webp" alt="Underside of the crosshead showing the two nut/flange interfaces and screw-clearance locations." loading="lazy"><figcaption><strong>Figure 8.</strong> Underside of the crosshead showing the two nut/flange interfaces and screw-clearance locations. <a href="interface.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
 
 The crosshead has two Ø0.255-in screw-clearance holes and eight Ø0.26-in mounting holes. The mounting-hole groups sit around the two screw axes. The original plate had square outside corners; the revision rounds those corners while retaining the two mounting regions.
 
-<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-9"><img src="images/original.webp" alt="Initial crosshead with square outside corners and two flange-hole groups." loading="lazy"><figcaption><strong>Figure 9.</strong> Initial crosshead with square outside corners and two flange-hole groups. <a href="images/original.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-10"><img src="images/revised.webp" alt="Revised crosshead with rounded outside corners. The mounting regions and hole groups are retained." loading="lazy"><figcaption><strong>Figure 10.</strong> Revised crosshead with rounded outside corners. The mounting regions and hole groups are retained. <a href="images/revised.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
+<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-9"><img src="original.webp" alt="Initial crosshead with square outside corners and two flange-hole groups." loading="lazy"><figcaption><strong>Figure 9.</strong> Initial crosshead with square outside corners and two flange-hole groups. <a href="original.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-10"><img src="revised.webp" alt="Revised crosshead with rounded outside corners. The mounting regions and hole groups are retained." loading="lazy"><figcaption><strong>Figure 10.</strong> Revised crosshead with rounded outside corners. The mounting regions and hole groups are retained. <a href="revised.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
 
 ### Crosshead multiview drawing
 
 The drawing shows the top, front, side, and isometric views, the 8-in overall length, 6-in screw spacing, 0.563-in thickness, and the two hole sizes. The original CAD drawing is shown below.
 
-<div class="a10-pdf"><a class="a10-pdf-title" href="files/Crosshead.pdf">Crosshead drawing · PDF</a><img class="a10-pdf-page" src="images/drawing-page.png" alt="Crosshead drawing, rendered directly from the original PDF" loading="lazy"><details class="a10-reader"><summary>PDF viewer with zoom controls</summary><object type="application/pdf" data="files/Crosshead.pdf" aria-label="Crosshead drawing" width="100%" height="650"><a href="files/Crosshead.pdf">Open PDF</a></object></details></div>
+<div class="a10-pdf"><a class="a10-pdf-title" href="Crosshead.pdf">Crosshead drawing · PDF</a><img class="a10-pdf-page" src="drawing-page.png" alt="Crosshead drawing, rendered directly from the original PDF" loading="lazy"><details class="a10-reader"><summary>PDF viewer with zoom controls</summary><object type="application/pdf" data="Crosshead.pdf" aria-label="Crosshead drawing" width="100%" height="650"><a href="Crosshead.pdf">Open PDF</a></object></details></div>
 
 ### Parameters and interface intent
 
@@ -228,13 +228,13 @@ We compared the initial plate and the rounded-corner revision using static stres
 
 The stress rose by **24.7%** between the recorded results. The displacement increased by roughly a factor of four using the rounded plot labels. We kept those changes in the comparison rather than describing the revision as a stress reduction. The revised study's reported FOS is above the required 4, and its plotted displacement is below 0.100 mm.
 
-<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-11"><img src="images/stress-before.webp" alt="Initial study: maximum von Mises stress 2.853 ksi. The strongest stress concentrations are near mounting holes. The displayed deformation is exaggerated." loading="lazy"><figcaption><strong>Figure 11.</strong> Initial study: maximum von Mises stress 2.853 ksi. The strongest stress concentrations are near mounting holes. The displayed deformation is exaggerated. <a href="images/stress-before.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-12"><img src="images/stress-after.webp" alt="Revised study: maximum von Mises stress 3.557 ksi. The critical region remains near the attachment holes. The apparent curvature is the displayed deformation." loading="lazy"><figcaption><strong>Figure 12.</strong> Revised study: maximum von Mises stress 3.557 ksi. The critical region remains near the attachment holes. The apparent curvature is the displayed deformation. <a href="images/stress-after.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
+<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-11"><img src="stress-before.webp" alt="Initial study: maximum von Mises stress 2.853 ksi. The strongest stress concentrations are near mounting holes. The displayed deformation is exaggerated." loading="lazy"><figcaption><strong>Figure 11.</strong> Initial study: maximum von Mises stress 2.853 ksi. The strongest stress concentrations are near mounting holes. The displayed deformation is exaggerated. <a href="stress-before.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-12"><img src="stress-after.webp" alt="Revised study: maximum von Mises stress 3.557 ksi. The critical region remains near the attachment holes. The apparent curvature is the displayed deformation." loading="lazy"><figcaption><strong>Figure 12.</strong> Revised study: maximum von Mises stress 3.557 ksi. The critical region remains near the attachment holes. The apparent curvature is the displayed deformation. <a href="stress-after.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
 
-<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-13"><img src="images/disp-before.webp" alt="Initial study: maximum plotted resultant displacement approximately 0.003 mm." loading="lazy"><figcaption><strong>Figure 13.</strong> Initial study: maximum plotted resultant displacement approximately 0.003 mm. <a href="images/disp-before.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-14"><img src="images/disp-after.webp" alt="Revised study: maximum plotted resultant displacement approximately 0.012 mm." loading="lazy"><figcaption><strong>Figure 14.</strong> Revised study: maximum plotted resultant displacement approximately 0.012 mm. <a href="images/disp-after.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
+<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-13"><img src="disp-before.webp" alt="Initial study: maximum plotted resultant displacement approximately 0.003 mm." loading="lazy"><figcaption><strong>Figure 13.</strong> Initial study: maximum plotted resultant displacement approximately 0.003 mm. <a href="disp-before.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-14"><img src="disp-after.webp" alt="Revised study: maximum plotted resultant displacement approximately 0.012 mm." loading="lazy"><figcaption><strong>Figure 14.</strong> Revised study: maximum plotted resultant displacement approximately 0.012 mm. <a href="disp-after.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
 
-<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-15"><img src="images/fos-before.webp" alt="Initial safety-factor plot. Blue is above the displayed upper scale of 8; it is not an exact numerical minimum." loading="lazy"><figcaption><strong>Figure 15.</strong> Initial safety-factor plot. Blue is above the displayed upper scale of 8; it is not an exact numerical minimum. <a href="images/fos-before.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-16"><img src="images/fos-after.webp" alt="Revised safety-factor plot. The target is 4, and the displayed blue field is above the upper scale." loading="lazy"><figcaption><strong>Figure 16.</strong> Revised safety-factor plot. The target is 4, and the displayed blue field is above the upper scale. <a href="images/fos-after.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
+<div class="a10-pair"><figure class="a10-figure cad" id="a10-figure-15"><img src="fos-before.webp" alt="Initial safety-factor plot. Blue is above the displayed upper scale of 8; it is not an exact numerical minimum." loading="lazy"><figcaption><strong>Figure 15.</strong> Initial safety-factor plot. Blue is above the displayed upper scale of 8; it is not an exact numerical minimum. <a href="fos-before.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure><figure class="a10-figure cad" id="a10-figure-16"><img src="fos-after.webp" alt="Revised safety-factor plot. The target is 4, and the displayed blue field is above the upper scale." loading="lazy"><figcaption><strong>Figure 16.</strong> Revised safety-factor plot. The target is 4, and the displayed blue field is above the upper scale. <a href="fos-after.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure></div>
 
-<figure class="a10-figure cad" id="a10-figure-17"><img src="images/fos-detail.webp" alt="Revised study result panel: minimum safety factor 11.212, based on yield strength." loading="lazy"><figcaption><strong>Figure 17.</strong> Revised study result panel: minimum safety factor 11.212, based on yield strength. <a href="images/fos-detail.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
+<figure class="a10-figure cad" id="a10-figure-17"><img src="fos-detail.webp" alt="Revised study result panel: minimum safety factor 11.212, based on yield strength." loading="lazy"><figcaption><strong>Figure 17.</strong> Revised study result panel: minimum safety factor 11.212, based on yield strength. <a href="fos-detail.webp" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
 
 The revised stress and FOS imply a solver yield basis of about 39.88 ksi (275 MPa): 3.557 × 11.212 ≈ 39.88. This inferred solver value is distinct from the 240-MPa beam-strength example. The safety-factor colors saturate at 8, so blue does not mean the actual minimum FOS is exactly 8.
 
@@ -273,7 +273,7 @@ The purchased-component list totals **$299.91**. Unit costs below are calculated
 
 The cost sheet uses a 36-in stock screw, while the CAD uses two 18-in precision screws with a different catalog number. The purchased-parts total records the cost-sheet selection. Cutting one exactly 36-in bar into two finished 18-in screws also requires accounting for saw kerf; it does not provide two exact finished lengths by itself.
 
-<div class="a10-pdf"><a class="a10-pdf-title" href="files/A10-BOM.pdf">Bill of materials · PDF</a><img class="a10-pdf-page" src="images/bom-page.png" alt="Bill of materials, rendered directly from the original PDF" loading="lazy"><details class="a10-reader"><summary>PDF viewer with zoom controls</summary><object type="application/pdf" data="files/A10-BOM.pdf" aria-label="Bill of materials" width="100%" height="650"><a href="files/A10-BOM.pdf">Open PDF</a></object></details></div>
+<div class="a10-pdf"><a class="a10-pdf-title" href="A10-BOM.pdf">Bill of materials · PDF</a><img class="a10-pdf-page" src="bom-page.png" alt="Bill of materials, rendered directly from the original PDF" loading="lazy"><details class="a10-reader"><summary>PDF viewer with zoom controls</summary><object type="application/pdf" data="A10-BOM.pdf" aria-label="Bill of materials" width="100%" height="650"><a href="A10-BOM.pdf">Open PDF</a></object></details></div>
 
 ## Lessons learned
 
@@ -291,13 +291,13 @@ Rounding the outside corners changed the recorded response, but the peak stress 
 
 | File | Contents |
 |---|---|
-| [Tester assembly — Fusion F3Z](files/tensile-tester.f3z) | Assembly archive with its referenced components |
-| [Crosshead — Fusion F3D](files/crosshead.f3d) | Editable crosshead design and the saved study structure |
-| [Original drawing export](files/Crosshead.pdf) | Original multiview drawing by Rick Bhattacharya |
-| [Bill of materials](files/A10-BOM.pdf) | Original cost sheet |
-| [Bill of materials CSV](files/A10-BOM.csv) | Editable, typed cost table with purchase links |
-| [Submission PDF](files/A10-team-report.pdf) | Team report, calculations, figures, and original drawing |
-| [Original handwritten work](files/A10-original-work.zip) | The four original calculation photographs |
+| [Tester assembly — Fusion F3Z](tensile-tester.f3z) | Assembly archive with its referenced components |
+| [Crosshead — Fusion F3D](crosshead.f3d) | Editable crosshead design and the saved study structure |
+| [Original drawing export](Crosshead.pdf) | Original multiview drawing by Rick Bhattacharya |
+| [Bill of materials](A10-BOM.pdf) | Original cost sheet |
+| [Bill of materials CSV](A10-BOM.csv) | Editable, typed cost table with purchase links |
+| [Submission PDF](A10-team-report.pdf) | Team report, calculations, figures, and original drawing |
+| [Original handwritten work](A10-original-work.zip) | The four original calculation photographs |
 
 ## References
 
