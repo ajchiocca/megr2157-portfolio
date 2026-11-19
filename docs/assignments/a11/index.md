@@ -103,7 +103,7 @@ The lower mount supports the screw radially while it rotates and provides the fl
 | Inner bearing | Ø0.250 in bore with +0.0006 in shown, Ø0.400 in OD, 0.375 in long |
 | Outer bearing | Ø0.400 in ID, Ø0.600 in OD, 0.275 in long |
 
-Our design calls for an RC3 fit at the leadscrew opening. The drawings below show the dimensions our team recorded.
+Our design calls for an RC3 fit at the lead-screw opening. The drawings below show the dimensions our team recorded. The clearance on the holes of the bolts for also called for a close fit nominal diameter of .217 inches.
 
 <figure class="a11-figure" id="a11-figure-16"><img src="bearing-mount.jpg" alt="CAD view of the lower housing, bearing stack and four mounting locations." loading="lazy"><figcaption><strong>Figure 16.</strong> CAD view of the lower housing, bearing stack and four mounting locations. <a href="bearing-mount.jpg" target="_blank" rel="noopener">Full size</a>.</figcaption></figure>
 
