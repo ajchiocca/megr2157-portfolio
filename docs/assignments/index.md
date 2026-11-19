@@ -13,4 +13,4 @@ A collection of coursework for MEGR 2157, organized around the
 - [A8](A08/index.md)
 - [A9](A09/index.md)
 - [A10](A10/index.md)
-- [A11](A11/index.md)
+- [A11](a11/index.md)
